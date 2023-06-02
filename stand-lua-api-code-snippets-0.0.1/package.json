@@ -1,0 +1,25 @@
+{
+	"name": "stand-lua-api-code-snippets",
+	"displayName": "Stand Lua API Code Snippets",
+	"description": "",
+	"publisher": "Stand [Ultimate] Users",
+	"version": "0.0.1",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.74.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "lua",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1685663943371
+	}
+}

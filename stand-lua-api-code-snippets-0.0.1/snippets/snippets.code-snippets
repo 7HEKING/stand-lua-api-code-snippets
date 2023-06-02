@@ -1,0 +1,2394 @@
+{
+    
+"isValid()": {
+"prefix": ":isValid()",
+"body": ":isValid()",
+"description": "shorthand for menu.is_ref_valid"
+},
+"refByRelPath()": {
+"prefix": ":refByRelPath()",
+"body": ":refByRelPath()",
+"description": "shorthand for menu.ref_by_rel_path"
+},
+"delete()": {
+"prefix": ":delete()",
+"body": ":delete()",
+"description": "shorthand for menu.delete"
+},
+"detach()": {
+"prefix": ":detach()",
+"body": ":detach()",
+"description": "shorthand for menu.detach"
+},
+"attach(...)": {
+"prefix": ":attach(...)",
+"body": ":attach($1)",
+"description": "shorthand for menu.attach"
+},
+"attachAfter(...)": {
+"prefix": ":attachAfter(...)",
+"body": ":attachAfter($1)",
+"description": "shorthand for menu.attach_after"
+},
+"attachBefore(...)": {
+"prefix": ":attachBefore(...)",
+"body": ":attachBefore($1)",
+"description": "shorthand for menu.attach_before"
+},
+"focus()": {
+"prefix": ":focus()",
+"body": ":focus()",
+"description": "shorthand for menu.focus"
+},
+"isFocused()": {
+"prefix": ":isFocused()",
+"body": ":isFocused()",
+"description": "shorthand for menu.is_focused"
+},
+"getApplicablePlayers()": {
+"prefix": ":getApplicablePlayers()",
+"body": ":getApplicablePlayers()",
+"description": "shorthand for menu.get_applicable_players"
+},
+"getParent()": {
+"prefix": ":getParent()",
+"body": ":getParent()",
+"description": "shorthand for menu.get_parent"
+},
+"getType()": {
+"prefix": ":getType()",
+"body": ":getType()",
+"description": "shorthand for menu.get_type"
+},
+"getChildren()": {
+"prefix": ":getChildren()",
+"body": ":getChildren()",
+"description": "shorthand for menu.get_children"
+},
+"trigger()": {
+"prefix": ":trigger()",
+"body": ":trigger()",
+"description": "shorthand for menu.trigger_command"
+},
+"onTickInViewport(...)": {
+"prefix": ":onTickInViewport(...)",
+"body": ":onTickInViewport($1)",
+"description": "shorthand for menu.on_tick_in_viewport"
+},
+"onFocus(...)": {
+"prefix": ":onFocus(...)",
+"body": ":onFocus($1)",
+"description": "shorthand for menu.on_focus"
+},
+"onBlur(...)": {
+"prefix": ":onBlur(...)",
+"body": ":onBlur($1)",
+"description": "shorthand for menu.on_blur"
+},
+"removeHandler(...)": {
+"prefix": ":removeHandler(...)",
+"body": ":removeHandler($1)",
+"description": "shorthand for menu.remove_handler"
+},
+"getState()": {
+"prefix": ":getState()",
+"body": ":getState()",
+"description": "shorthand for menu.get_state"
+},
+"getDefaultState()": {
+"prefix": ":getDefaultState()",
+"body": ":getDefaultState()",
+"description": "shorthand for menu.get_default_state"
+},
+"applyDefaultState()": {
+"prefix": ":applyDefaultState()",
+"body": ":applyDefaultState()",
+"description": "shorthand for menu.apply_default_state"
+},
+"setListActionOptions(...)": {
+"prefix": ":setListActionOptions(...)",
+"body": ":setListActionOptions($1)",
+"description": "shorthand for menu.set_list_action_options"
+},
+"setTextsliderOptions(...)": {
+"prefix": ":setTextsliderOptions(...)",
+"body": ":setTextsliderOptions($1)",
+"description": "shorthand for menu.set_textslider_options"
+},
+"addValueReplacement(...)": {
+"prefix": ":addValueReplacement(...)",
+"body": ":addValueReplacement($1)",
+"description": "shorthand for menu.add_value_replacement"
+},
+"setTemporary()": {
+"prefix": ":setTemporary()",
+"body": ":setTemporary()",
+"description": "shorthand for menu.set_temporary"
+},
+"visible": {
+"prefix": ".visible",
+"body": ".visible",
+"description": "shorthand for menu.get_visible/menu.set_visible"
+},
+"value": {
+"prefix": ".value",
+"body": ".value",
+"description": "shorthand for menu.get_value/menu.set_value"
+},
+"min_value": {
+"prefix": ".min_value",
+"body": ".min_value",
+"description": "shorthand for menu.get_min_value/menu.set_min_value"
+},
+"max_value": {
+"prefix": ".max_value",
+"body": ".max_value",
+"description": "shorthand for menu.get_max_value/menu.set_max_value"
+},
+"step_size": {
+"prefix": ".step_size",
+"body": ".step_size",
+"description": "shorthand for menu.get_step_size/menu.set_step_size"
+},
+"precision": {
+"prefix": ".precision",
+"body": ".precision",
+"description": "shorthand for menu.get_precision/menu.set_precision"
+},
+"indicator_type": {
+"prefix": ".indicator_type",
+"body": ".indicator_type",
+"description": "shorthand for menu.get_indicator_type/menu.set_indicator_type"
+},
+"target": {
+"prefix": ".target",
+"body": ".target",
+"description": "shorthand for menu.get_target/menu.set_target"
+},
+"list(...)": {
+"prefix": ":list(...)",
+"body": ":list($1)",
+"description": "shorthand for menu.list"
+},
+"action(...)": {
+"prefix": ":action(...)",
+"body": ":action($1)",
+"description": "shorthand for menu.action"
+},
+"toggle(...)": {
+"prefix": ":toggle(...)",
+"body": ":toggle($1)",
+"description": "shorthand for menu.toggle"
+},
+"toggle_loop(...)": {
+"prefix": ":toggle_loop(...)",
+"body": ":toggle_loop($1)",
+"description": "shorthand for menu.toggle_loop"
+},
+"slider(...)": {
+"prefix": ":slider(...)",
+"body": ":slider($1)",
+"description": "shorthand for menu.slider"
+},
+"slider_float(...)": {
+"prefix": ":slider_float(...)",
+"body": ":slider_float($1)",
+"description": "shorthand for menu.slider_float"
+},
+"click_slider(...)": {
+"prefix": ":click_slider(...)",
+"body": ":click_slider($1)",
+"description": "shorthand for menu.click_slider"
+},
+"click_slider_float(...)": {
+"prefix": ":click_slider_float(...)",
+"body": ":click_slider_float($1)",
+"description": "shorthand for menu.click_slider_float"
+},
+"list_select(...)": {
+"prefix": ":list_select(...)",
+"body": ":list_select($1)",
+"description": "shorthand for menu.list_select"
+},
+"list_action(...)": {
+"prefix": ":list_action(...)",
+"body": ":list_action($1)",
+"description": "shorthand for menu.list_action"
+},
+"text_input(...)": {
+"prefix": ":text_input(...)",
+"body": ":text_input($1)",
+"description": "shorthand for menu.text_input"
+},
+"colour(...)": {
+"prefix": ":colour(...)",
+"body": ":colour($1)",
+"description": "shorthand for menu.colour"
+},
+"rainbow(...)": {
+"prefix": ":rainbow(...)",
+"body": ":rainbow($1)",
+"description": "shorthand for menu.rainbow"
+},
+"divider(...)": {
+"prefix": ":divider(...)",
+"body": ":divider($1)",
+"description": "shorthand for menu.divider"
+},
+"readonly(...)": {
+"prefix": ":readonly(...)",
+"body": ":readonly($1)",
+"description": "shorthand for menu.readonly"
+},
+"hyperlink(...)": {
+"prefix": ":hyperlink(...)",
+"body": ":hyperlink($1)",
+"description": "shorthand for menu.hyperlink"
+},
+"textslider(...)": {
+"prefix": ":textslider(...)",
+"body": ":textslider($1)",
+"description": "shorthand for menu.textslider"
+},
+"textslider_stateful(...)": {
+"prefix": ":textslider_stateful(...)",
+"body": ":textslider_stateful($1)",
+"description": "shorthand for menu.textslider_stateful"
+},
+"player_list_players_shortcut(...)": {
+"prefix": ":player_list_players_shortcut(...)",
+"body": ":player_list_players_shortcut($1)",
+"description": "shorthand for menu.player_list_players_shortcut"
+},
+"link(...)": {
+"prefix": ":link(...)",
+"body": ":link($1)",
+"description": "shorthand for menu.link"
+},
+
+
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"menu": {
+"prefix": "menu.",
+"body": "menu.",
+"description": "Menu Functions"
+},
+"my_root":{
+"prefix": "my_root()",
+"body": "my_root()",
+"description": "Returns a reference to the list that your script gets when it is started."
+},
+"player_root":{
+"prefix": "player_root(player_id)",
+"body": "player_root(player_id)",
+"description": "Returns a reference to the list that the given player owns."
+},
+"shadow_root":{
+"prefix": "shadow_root()",
+"body": "shadow_root()",
+"description": "Using return value of this function to create a command produces a detached commmand (CommandUniqPtr) instead of a CommandRef."
+},
+"ref_by_path":{
+"prefix": "ref_by_path(path, tree_version)",
+"body": "ref_by_path(path, tree_version)",
+"description": "Returns a reference to any command in Stand using a path such as Self>Immortality. Note that the path has to be in English (UK) and using the no-space greater-than separator.\n\nProviding a tree version is optional but highly recommended for future-proofing. You can find this in any tree config file, such as your profile."
+},
+"ref_by_rel_path":{
+"prefix": "ref_by_rel_path(base, path)",
+"body": "ref_by_rel_path(base, path)",
+"description": "Returns a reference to any command in Stand using a relative path based on a base command. The path should be in English (UK) and using the no-space greater-than separator."
+},
+"ref_by_command_name":{
+"prefix": "ref_by_command_name(command_name)",
+"body": "ref_by_command_name(command_name)",
+"description": "Returns a reference to a command in Stand using its command name."
+},
+"list":{
+"prefix": "list(parent, menu_name, command_names, help_text, on_click, on_back, on_active_list_update)",
+"body": "list(parent, menu_name, command_names, help_text, on_click, on_back, on_active_list_update)",
+"description": "Creates a list command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- on_click: Function called when the command is clicked.\n- on_back: Function called when the back button is clicked.\n- on_active_list_update: Function called when the active list is updated."
+},
+"action":{
+"prefix": "action(parent, menu_name, command_names, help_text, on_click, on_command, syntax, perm)",
+"body": "action(parent, menu_name, command_names, help_text, on_click, on_command, syntax, perm)",
+"description": "Creates an action command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- on_click: Function called when the command is clicked.\n- on_command: Function called when the command is executed.\n- syntax: Syntax for the command.\n- perm: Permission level required to execute the command."
+},
+"toggle": {
+"prefix": "toggle(parent, menu_name, command_names, help_text, on_change, default_on)",
+"body": "toggle(parent, menu_name, command_names, help_text, on_change, default_on)",
+"description": "Toggles a menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- on_change: Function called when the toggle changes state.\n- default_on: (optional) Default state of the toggle (default: false)."
+},
+"toggle_loop": {
+"prefix": "toggle_loop(parent, menu_name, command_names, help_text, on_tick, on_stop)",
+"body": "toggle_loop(parent, menu_name, command_names, help_text, on_tick, on_stop)",
+"description": "Creates a looping toggle menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- on_tick: Function called every tick the toggle is checked.\n- on_stop: (optional) Function called when the toggle is stopped (default: nil)."
+},
+"slider": {
+"prefix": "slider(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_change)",
+"body": "slider(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_change)",
+"description": "Creates a slider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- min_value: Minimum value of the slider.\n- max_value: Maximum value of the slider.\n- default_value: Default value of the slider.\n- step_size: Step size of the slider.\n- on_change: Function called when the slider value changes."
+},
+"slider_float": {
+"prefix": "slider_float(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_change)",
+"body": "slider_float(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_change)",
+"description": "Creates a floating-point slider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- min_value: Minimum value of the slider.\n- max_value: Maximum value of the slider.\n- default_value: Default value of the slider.\n- step_size: Step size of the slider.\n- on_change: Function called when the slider value changes."
+},
+"click_slider": {
+"prefix": "click_slider(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_click)",
+"body": "click_slider(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_click)",
+"description": "Creates a clickable slider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- min_value: Minimum value of the slider.\n- max_value: Maximum value of the slider.\n- default_value: Default value of the slider.\n- step_size: Step size of the slider.\n- on_click: Function called when the slider is clicked."
+},
+"click_slider_float": {
+"prefix": "click_slider_float(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_click)",
+"body": "click_slider_float(parent, menu_name, command_names, help_text, min_value, max_value, default_value, step_size, on_click)",
+"description": "Creates a clickable floating-point slider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- min_value: Minimum value of the slider.\n- max_value: Maximum value of the slider.\n- default_value: Default value of the slider.\n- step_size: Step size of the slider.\n- on_click: Function called when the slider is clicked."
+},
+"list_select": {
+"prefix": "list_select(parent, menu_name, command_names, help_text, options, default_value, on_change)",
+"body": "list_select(parent, menu_name, command_names, help_text, options, default_value, on_change)",
+"description": "Creates a list selection menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- options: Table of list options.\n- default_value: Default selected option index.\n- on_change: Function called when the selected option changes."
+},
+"list_action": {
+"prefix": "list_action(parent, menu_name, command_names, help_text, options, on_item_click)",
+"body": "list_action(parent, menu_name, command_names, help_text, options, on_item_click)",
+"description": "Creates a list action menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- options: Table of list options.\n- on_item_click: Function called when a list item is clicked."
+},
+"text_input": {
+"prefix": "text_input(parent, menu_name, command_names, help_text, on_change, default_value)",
+"body": "text_input(parent, menu_name, command_names, help_text, on_change, default_value)",
+"description": "Creates a text input menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- on_change: Function called when the text input changes.\n- default_value: (optional) Default value of the text input (default: \"\")."
+},
+"colour": {
+"prefix": "colour(parent, menu_name, command_names, help_text, default, transparency, on_change)",
+"body": "colour(parent, menu_name, command_names, help_text, default, transparency, on_change)",
+"description": "Creates a color menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- default: Default color value.\n- transparency: Flag indicating whether transparency is enabled.\n- on_change: Function called when the color value changes."
+},
+"colour": {
+"prefix": "colour(parent, menu_name, command_names, help_text, default_r, default_g, default_b, default_a, transparency, on_change)",
+"body": "colour(parent, menu_name, command_names, help_text, default_r, default_g, default_b, default_a, transparency, on_change)",
+"description": "Creates a color menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- default_r: Default red component of the color.\n- default_g: Default green component of the color.\n- default_b: Default blue component of the color.\n- default_a: Default alpha component of the color.\n- transparency: Flag indicating whether transparency is enabled.\n- on_change: Function called when the color value changes."
+},
+"rainbow": {
+"prefix": "rainbow(colour_command)",
+"body": "rainbow(colour_command)",
+"description": "Creates a rainbow slider for the given color command. This should be called right after creating the color command.\n\n- colour_command: Reference to the color command."
+},
+"divider": {
+"prefix": "divider(parent, menu_name)",
+"body": "divider(parent, menu_name)",
+"description": "Creates a divider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed."
+},
+"readonly": {
+"prefix": "readonly(parent, menu_name, value)",
+"body": "readonly(parent, menu_name, value)",
+"description": "Creates a read-only menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- value: (optional) Initial value of the command (default: \"\")."
+},
+"hyperlink": {
+"prefix": "hyperlink(parent, menu_name, url)",
+"body": "hyperlink(parent, menu_name, url)",
+"description": "Creates a hyperlink menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- url: URL to be opened when the hyperlink is clicked."
+},
+"textslider": {
+"prefix": "textslider(parent, menu_name, command_names, help_text, options, on_click)",
+"body": "textslider(parent, menu_name, command_names, help_text, options, on_click)",
+"description": "Creates a text slider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- options: Table containing the slider options as key-value pairs.\n- on_click: Function called when an option is clicked. It receives the option's index, value, and click_type as parameters."
+},
+"textslider_stateful": {
+"prefix": "textslider_stateful(parent, menu_name, command_names, help_text, options, on_click)",
+"body": "textslider_stateful(parent, menu_name, command_names, help_text, options, on_click)",
+"description": "Creates a stateful text slider menu command with the provided parameters. Returns a CommandRef or a detached CommandUniqPtr.\n\n- parent: Reference to the parent command.\n- menu_name: Name of the menu displayed.\n- command_names: Table containing additional command names.\n- help_text: Help text displayed for the command.\n- options: Table containing the slider options as key-value pairs.\n- on_click: Function called when an option is clicked. It receives the option's index, value, and click_type as parameters."
+},
+"link": {
+"prefix": "link(parent, target, show_address_in_corner = false)",
+"body": "link(parent, target, show_address_in_corner = false)",
+"description": "Creates a link menu command with the provided parameters. Returns void.\n\n- parent: Reference to the parent command.\n- target: Reference to the target command that the link will navigate to.\n- show_address_in_corner: Flag indicating whether to show the target command's address in the corner (default: false)."
+},
+"apply_command_states": {
+"prefix": "apply_command_states()",
+"body": "apply_command_states()",
+"description": "Loads the state and hotkeys for commands you've created without needing to yield. Note that your script is always expected to create all stateful commands in the first tick."
+},
+"delete": {
+"prefix": "delete(command)",
+"body": "delete(command)",
+"description": "Deletes the specified command.\n\n- command: Reference to the command to be deleted."
+},
+"replace": {
+"prefix": "replace(old, new)",
+"body": "replace(old, new)",
+"description": "Replaces an old command with a new command and returns the new command reference.\n\n- old: Reference to the old command.\n- new: Unique pointer to the new command."
+},
+"detach": {
+"prefix": "detach(command)",
+"body": "detach(command)",
+"description": "Detaches the specified command and returns it as a detached CommandUniqPtr.\n\n- command: Reference to the command to be detached."
+},
+"attach": {
+"prefix": "attach(parent, command)",
+"body": "attach(parent, command)",
+"description": "Attaches a command to a parent command and returns the reference to the attached command.\n\n- parent: Reference to the parent command.\n- command: Unique pointer to the command to be attached."
+},
+"attach_after": {
+"prefix": "attach_after(anchor, command)",
+"body": "attach_after(anchor, command)",
+"description": "Attaches a command after an anchor command and returns the reference to the attached command.\n\n- anchor: Reference to the anchor command.\n- command: Unique pointer to the command to be attached."
+},
+"attach_before": {
+"prefix": "attach_before(anchor, command)",
+"body": "attach_before(anchor, command)",
+"description": "Attaches a command before an anchor command and returns the reference to the attached command.\n\n- anchor: Reference to the anchor command.\n- command: Unique pointer to the command to be attached."
+},
+"is_ref_valid": {
+"prefix": "is_ref_valid(ref)",
+"body": "is_ref_valid(ref)",
+"description": "Checks if the referenced command still exists and returns a boolean.\n\n- ref: Reference to the command to be checked."
+},
+"focus": {
+"prefix": "focus(command)",
+"body": "focus(command)",
+"description": "Focuses on the specified command.\n\n- command: Reference to the command to be focused."
+},
+"is_focused": {
+"prefix": "is_focused(command)",
+"body": "is_focused(command)",
+"description": "Checks if the specified command is currently focused and returns a boolean.\n\n- command: Reference to the command to be checked."
+},
+"get_applicable_players": {
+"prefix": "get_applicable_players(command, include_user = nil)",
+"body": "get_applicable_players(command, include_user = nil)",
+"description": "Retrieves the applicable players for the specified command and returns a table.\n\n- command: Reference to the command.\n- include_user: Optional boolean indicating whether to include the user (default: nil)."
+},
+"get_parent": {
+"prefix": "get_parent(command)",
+"body": "get_parent(command)",
+"description": "Retrieves the parent command of the specified command and returns the reference.\n\n- command: Reference to the command."
+},
+"get_type": {
+"prefix": "get_type(command)",
+"body": "get_type(command)",
+"description": "Retrieves the type of the specified command and returns an integer.\n\n- command: Reference to the command."
+},
+"get_children": {
+"prefix": "get_children(list)",
+"body": "get_children(list)",
+"description": "Retrieves the children commands of the specified list command and returns a table.\n\n- list: Reference to the list command."
+},
+"collect_garbage": {
+"prefix": "collect_garbage()",
+"body": "collect_garbage()",
+"description": "Removes invalidated weak references from an internal vector. Stand does this automatically, but if you bulk-delete or replace commands, you might want to call this right after."
+},
+"is_open": {
+"prefix": "is_open()",
+"body": "is_open()",
+"description": "Checks if the menu is open and returns a boolean."
+},
+"get_position": {
+"prefix": "get_position()",
+"body": "get_position()",
+"description": "Returns the menu's grid origin x and y coordinates as a pair of numbers."
+},
+"get_main_view_position_and_size": {
+"prefix": "get_main_view_position_and_size()",
+"body": "get_main_view_position_and_size()",
+"description": "Returns the x, y, width, and height of the current main view (active list, warning, etc.) as four numbers."
+},
+"get_current_menu_list": {
+"prefix": "get_current_menu_list()",
+"body": "get_current_menu_list()",
+"description": "Returns a reference to the current menu list, which ignores the context "
+},
+"get_current_ui_list": {
+"prefix": "get_current_ui_list()",
+"body": "get_current_ui_list()",
+"description": "Returns a reference to the current UI list, which can include the context "
+},
+"get_active_list_cursor_text": {
+"prefix": "get_active_list_cursor_text(even_when_disabled = false, even_when_inappropriate = false)",
+"body": "get_active_list_cursor_text(even_when_disabled = false, even_when_inappropriate = false)",
+"description": "Returns the cursor text of the current UI list.\n\n- even_when_disabled: Optional boolean indicating whether to return the cursor text even when the list is disabled (default: false).\n- even_when_inappropriate: Optional boolean indicating whether to return the cursor text even when the list is inappropriate (default: false)."
+},
+"are_tabs_visible": {
+"prefix": "are_tabs_visible()",
+"body": "are_tabs_visible()",
+"description": "Checks if the tabs are visible and returns a boolean."
+},
+"show_command_box": {
+"prefix": "show_command_box(prefill)",
+"body": "show_command_box(prefill)",
+"description": "Displays the command box with the specified prefill text.\n\n- prefill: The pre-filled text for the command box."
+},
+"show_command_box_click_based": {
+"prefix": "show_command_box_click_based(click_type, prefill)",
+"body": "show_command_box_click_based(click_type, prefill)",
+"description": "Displays the command box with the specified click type and prefill text.\n\n- click_type: The click type that triggered the command box.\n- prefill: The pre-filled text for the command box."
+},
+"trigger_commands": {
+"prefix": "trigger_commands(input)",
+"body": "trigger_commands(input)",
+"description": "Triggers the execution of commands based on the specified input.\n\n- input: The input string containing the commands."
+},
+"trigger_command": {
+"prefix": "trigger_command(command, arg)",
+"body": "trigger_command(command, arg)",
+"description": "Triggers the execution of a specific command with the specified argument.\n\n- command: The reference to the command to be triggered.\n- arg: The argument for the command."
+},
+"command_box_is_open": {
+"prefix": "command_box_is_open()",
+"body": "command_box_is_open()",
+"description": "Checks if the command box is open and returns a boolean."
+},
+"command_box_get_dimensions": {
+"prefix": "command_box_get_dimensions()",
+"body": "command_box_get_dimensions()",
+"description": "Returns the x, y, width, and height of the command box as four numbers."
+},
+"is_in_screenshot_mode": {
+"prefix": "is_in_screenshot_mode()",
+"body": "is_in_screenshot_mode()",
+"description": "Checks if the menu is in screenshot mode and returns a boolean."
+},
+"on_tick_in_viewport": {
+"prefix": "on_tick_in_viewport(command, callback)",
+"body": "on_tick_in_viewport(command, callback)",
+"description": "Registers a callback function to be called when the specified command is in the viewport and the tick is triggered.\n\n- command: The reference to the command.\n- callback: The callback function to be called."
+},
+"on_focus": {
+"prefix": "on_focus(command, callback)",
+"body": "on_focus(command, callback)",
+"description": "Registers a callback function to be called when the specified command gains focus.\n\n- command: The reference to the command.\n- callback: The callback function to be called."
+},
+"on_blur": {
+"prefix": "on_blur(command, callback)",
+"body": "on_blur(command, callback)",
+"description": "Registers a callback function to be called when the specified command loses focus.\n\n- command: The reference to the command.\n- callback: The callback function to be called."
+},
+"remove_handler": {
+"prefix": "remove_handler(command, handler_id)",
+"body": "remove_handler(command, handler_id)",
+"description": "Removes a previously registered callback handler from the specified command.\n\n- command: The reference to the command.\n- handler_id: The ID of the handler to be removed."
+},
+"get_menu_name": {
+"prefix": "get_menu_name(command)",
+"body": "get_menu_name(command)",
+"description": "Retrieves the menu name of the specified command and returns a label.\n\n- command: The reference to the command."
+},
+"get_command_names": {
+"prefix": "get_command_names(command)",
+"body": "get_command_names(command)",
+"description": "Retrieves the command names of the specified command and returns a table.\n\n- command: The reference to the command."
+},
+"get_help_text": {
+"prefix": "get_help_text(command)",
+"body": "get_help_text(command)",
+"description": "Retrieves the help text of the specified command and returns a label.\n\n- command: The reference to the command."
+},
+"get_name_for_config": {
+"prefix": "get_name_for_config(command)",
+"body": "get_name_for_config(command)",
+"description": "Retrieves the name for the configuration of the specified command and returns a string.\n\n- command: The reference to the command."
+},
+"get_visible": {
+"prefix": "get_visible(command)",
+"body": "get_visible(command)",
+"description": "Checks if the specified command is visible and returns a boolean.\n\n- command: The reference to the command."
+},
+"get_value": {
+"prefix": "get_value(command)",
+"body": "get_value(command)",
+"description": "Retrieves the value of the specified command and returns an integer, boolean, or string.\n\n- command: The reference to the command."
+},
+"get_min_value": {
+"prefix": "get_min_value(command)",
+"body": "get_min_value(command)",
+"description": "Retrieves the minimum value of the specified command and returns an integer.\n\n- command: The reference to the command."
+},
+"get_max_value": {
+"prefix": "get_max_value(command)",
+"body": "get_max_value(command)",
+"description": "Retrieves the maximum value of the specified command and returns an integer.\n\n- command: The reference to the command."
+},
+"get_step_size": {
+"prefix": "get_step_size(command)",
+"body": "get_step_size(command)",
+"description": "Retrieves the step size of the specified command and returns an integer.\n\n- command: The reference to the command."
+},
+"get_precision": {
+"prefix": "get_precision(command)",
+"body": "get_precision(command)",
+"description": "Retrieves the precision of the specified float slider command and returns an integer.\n\n- command: The reference to the command."
+},
+"get_target": {
+"prefix": "get_target(command)",
+"body": "get_target(command)",
+"description": "Retrieves the target command of the specified list or link command and returns a reference.\n\n- command: The reference to the command."
+},
+"get_state": {
+"prefix": "get_state(command)",
+"body": "get_state(command)",
+"description": "Retrieves the state of the specified command and returns a string.\n\n- command: The reference to the command."
+},
+"get_default_state": {
+"prefix": "get_default_state(command)",
+"body": "get_default_state(command)",
+"description": "Retrieves the default state of the specified command and returns a string.\n\n- command: The reference to the command."
+},
+"apply_default_state": {
+"prefix": "apply_default_state(command)",
+"body": "apply_default_state(command)",
+"description": "Applies the default state to the specified command and returns a string.\n\n- command: The reference to the command."
+},
+"set_menu_name": {
+"prefix": "set_menu_name(command, menu_name)",
+"body": "set_menu_name(command, menu_name)",
+"description": "Sets the menu name of the specified command.\n\n- command: The reference to the command.\n- menu_name: The new menu name as a label."
+},
+"set_command_names": {
+"prefix": "set_command_names(command, command_names)",
+"body": "set_command_names(command, command_names)",
+"description": "Sets the command names of the specified command.\n\n- command: The reference to the command.\n- command_names: The new command names as a table of labels."
+},
+"set_help_text": {
+"prefix": "set_help_text(command, help_text)",
+"body": "set_help_text(command, help_text)",
+"description": "Sets the help text of the specified command.\n\n- command: The reference to the command.\n- help_text: The new help text as a label."
+},
+"set_visible": {
+"prefix": "set_visible(command, visible)",
+"body": "set_visible(command, visible)",
+"description": "Sets the visibility of the specified command.\n\n- command: The reference to the command.\n- visible: The new visibility as a boolean."
+},
+"set_value": {
+"prefix": "set_value(command, value)",
+"body": "set_value(command, value)",
+"description": "Sets the value of the specified command.\n\n- command: The reference to the command.\n- value: The new value as an integer, boolean, or string."
+},
+"set_min_value": {
+"prefix": "set_min_value(command, min_value)",
+"body": "set_min_value(command, min_value)",
+"description": "Sets the minimum value of the specified command.\n\n- command: The reference to the command.\n- min_value: The new minimum value as an integer."
+},
+"set_max_value": {
+"prefix": "set_max_value(command, max_value)",
+"body": "set_max_value(command, max_value)",
+"description": "Sets the maximum value of the specified command.\n\n- command: The reference to the command.\n- max_value: The new maximum value as an integer."
+},
+"set_step_size": {
+"prefix": "set_step_size(command, step_size)",
+"body": "set_step_size(command, step_size)",
+"description": "Sets the step size of the specified command.\n\n- command: The reference to the command.\n- step_size: The new step size as an integer."
+},
+"set_precision": {
+"prefix": "set_precision(command, precision)",
+"body": "set_precision(command, precision)",
+"description": "Sets the precision of the specified float slider command.\n\n- command: The reference to the command.\n- precision: The new precision as an integer."
+},
+"set_indicator_type": {
+"prefix": "set_indicator_type(command, indicator_type)",
+"body": "set_indicator_type(command, indicator_type)",
+"description": "Sets the indicator type for a list command.\n\n- command: Reference to the list command.\n- indicator_type: Integer value representing the indicator type. Possible values:\n - LISTINDICATOR_ARROW: Display an arrow indicator.\n - LISTINDICATOR_ARROW_IF_CHILDREN: Display an arrow indicator only if the list command has children.\n - LISTINDICATOR_OFF: Turn off the indicator.\n - LISTINDICATOR_ON: Turn on the indicator."
+},
+"set_target": {
+"prefix": "set_target(command, target)",
+"body": "set_target(command, target)",
+"description": "Sets the target command for a link command.\n\n- command: Reference to the link command.\n- target: Reference to the target command that the link will navigate to."
+},
+"set_list_action_options": {
+"prefix": "set_list_action_options(command, options)",
+"body": "set_list_action_options(command, options)",
+"description": "Sets the options for a list action command or a list select command.\n\n- command: Reference to the list action or list select command.\n- options: Table containing the options for the command."
+},
+"set_textslider_options": {
+"prefix": "set_textslider_options(command, options)",
+"body": "set_textslider_options(command, options)",
+"description": "Sets the options for a text slider command.\n\n- command: Reference to the text slider command.\n- options: Table containing the options for the command."
+},
+"add_value_replacement": {
+"prefix": "add_value_replacement(command, value, replacement)",
+"body": "add_value_replacement(command, value, replacement)",
+"description": "Adds a value replacement for a number slider command.\n\n- command: Reference to the number slider command.\n- value: Integer value to be replaced.\n- replacement: String representing the replacement for the value."
+},
+"set_temporary": {
+"prefix": "set_temporary(command)",
+"body": "set_temporary(command)",
+"description": "Marks a command as temporary, preventing it from having state or hotkey options and excluding it from 'Saved Commands.' However, its state will still be set to default during the script stop process.\n\n- command: Reference to the command to be marked as temporary."
+},
+"show_warning": {
+"prefix": "show_warning(command, click_type, message, proceed_callback, cancel_callback = nil, skippable = false)",
+"body": "show_warning(command, click_type, message, proceed_callback, cancel_callback = nil, skippable = false)",
+"description": "Displays a warning message for a command.\n\n- command: Reference to the command.\n- click_type: Integer representing the click type.\n- message: Warning message to be displayed.\n- proceed_callback: Function called when the user proceeds after reading the warning.\n- cancel_callback: Optional function called when the user cancels reading the warning (default: nil).\n- skippable: Optional boolean indicating whether the warning can be skipped when 'Force Me To Read Warnings' is disabled (default: false)."
+},
+"get_activation_key_hash": {
+"prefix": "get_activation_key_hash()",
+"body": "get_activation_key_hash()",
+"description": "Returns a 32-bit integer derived from the user's activation key. Returns 0 if no activation key is present."
+},
+"get_edition": {
+"prefix": "get_edition()",
+"body": "get_edition()",
+"description": "Returns a value between 0 and 3 representing the user's edition."
+},
+"get_version": {
+"prefix": "get_version()",
+"body": "get_version()",
+"description": "Returns a table containing the version information."
+},
+"player_list_players_shortcut":{
+"prefix": "CommandRef|CommandUniqPtr player_list_players_shortcut(CommandRef parent, Label menu_name, string command_name)",
+"body": "player_list_players_shortcut(${1CommandRef parent}, ${2Label menu_name}, ${3string command_name})",
+"description": "",
+},
+
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"players": {
+"prefix": "players.",
+"body": "players.",
+"description": "Players Functions"
+},
+"add_command_hook": {
+"prefix": "int add_command_hook(callback)",
+"body": "add_command_hook(callback)",
+"description": "Registers a function to be called when a player should have script features added.\n\n- callback: Function to be called when a player's script features are added. It will receive the player ID and player root as arguments."
+},
+"on_join": {
+"prefix": "int on_join(callback)",
+"body": "on_join(callback)",
+"description": "Registers a function to be called when a player joins the session.\n\n- callback: Function to be called when a player joins. It will receive the player ID as an argument."
+},
+"on_leave": {
+"prefix": "int on_leave(callback)",
+"body": "on_leave(callback)",
+"description": "Registers a function to be called when a player leaves the session.\n\n- callback: Function to be called when a player leaves. It will receive the player ID and name as arguments."
+},
+"dispatch_on_join": {
+"prefix": "void dispatch_on_join()",
+"body": "dispatch_on_join()",
+"description": "Calls the join handler(s) for every player that is already in the session."
+},
+"exists": {
+"prefix": "bool exists(player_id)",
+"body": "exists(player_id)",
+"description": "Checks if a player with the given ID is in the session.\n\n- player_id: ID of the player to check."
+},
+"user": {
+"prefix": "int user()",
+"body": "user()",
+"description": "Returns the player ID of the current user."
+},
+"user_ped": {
+"prefix": "int user_ped()",
+"body": "user_ped()",
+"description": "Returns the PED ID of the current user."
+},
+"list": {
+"prefix": "list(include_user, include_friends, include_strangers, include_crew_members, include_org_members)",
+"body": "list(include_user, include_friends, include_strangers, include_crew_members, include_org_members)",
+"description": "Returns an index-based table with all matching player IDs.\n\n- include_user: Whether to include the current user. Default is true.\n- include_friends: Whether to include friends. Default is true.\n- include_strangers: Whether to include strangers. Default is true.\n- include_crew_members: Whether to include crew members. Default is true.\n- include_org_members: Whether to include organization members. Default is true."
+},
+"list_only": {
+"prefix": "list_only(include_user, include_friends, include_crew_members, include_org_members)",
+"body": "list_only(include_user, include_friends, include_crew_members, include_org_members)",
+"description": "Returns an index-based table with all matching player IDs, excluding others.\n\n- include_user: Whether to include the current user. Default is false.\n- include_friends: Whether to include friends. Default is false.\n- include_crew_members: Whether to include crew members. Default is false.\n- include_org_members: Whether to include organization members. Default is false."
+},
+"list_except": {
+"prefix": "list_except(exclude_user, exclude_friends, exclude_crew_members, exclude_org_members)",
+"body": "list_except(exclude_user, exclude_friends, exclude_crew_members, exclude_org_members)",
+"description": "Returns an index-based table with all matching player IDs, excluding specified categories.\n\n- exclude_user: Whether to exclude the current user. Default is false.\n- exclude_friends: Whether to exclude friends. Default is false.\n- exclude_crew_members: Whether to exclude crew members. Default is false.\n- exclude_org_members: Whether to exclude organization members. Default is false."
+},
+"list_all_with_excludes": {
+"prefix": "list_all_with_excludes(include_user)",
+"body": "list_all_with_excludes(include_user)",
+"description": "Returns an index-based table with all matching player IDs, using Players > All Players > Excludes.\n\n- include_user: Whether to include the current user. Default is false."
+},
+"get_host": {
+"prefix": "get_host()",
+"body": "get_host()",
+"description": "Returns the ID of the host player."
+},
+"get_script_host": {
+"prefix": "get_script_host()",
+"body": "get_script_host()",
+"description": "Returns the ID of the script host player."
+},
+"get_focused": {
+"prefix": "get_focused()",
+"body": "get_focused()",
+"description": "Returns a table with the IDs of players who have the script focused."
+},
+"get_name": {
+"prefix": "get_name(player_id)",
+"body": "get_name(player_id)",
+"description": "Returns the name of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_rockstar_id": {
+"prefix": "get_rockstar_id(player_id)",
+"body": "get_rockstar_id(player_id)",
+"description": "Returns the Rockstar Social Club ID of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_connect_ip": {
+"prefix": "get_connect_ip(player_id)",
+"body": "get_connect_ip(player_id)",
+"description": "Returns the IP address of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_connect_port": {
+"prefix": "get_connect_port(player_id)",
+"body": "get_connect_port(player_id)",
+"description": "Returns the connection port of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"are_stats_ready": {
+"prefix": "are_stats_ready(player_id)",
+"body": "are_stats_ready(player_id)",
+"description": "Checks if the player's stats are ready.\n\n- player_id: The ID of the player."
+},
+"get_rank": {
+"prefix": "get_rank(player_id)",
+"body": "get_rank(player_id)",
+"description": "Returns the rank of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_rp": {
+"prefix": "get_rp(player_id)",
+"body": "get_rp(player_id)",
+"description": "Returns the RP (reputation points) of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_money": {
+"prefix": "get_money(player_id)",
+"body": "get_money(player_id)",
+"description": "Returns the in-game money of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_wallet": {
+"prefix": "get_wallet(player_id)",
+"body": "get_wallet(player_id)",
+"description": "Returns the wallet balance of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_bank": {
+"prefix": "get_bank(player_id)",
+"body": "get_bank(player_id)",
+"description": "Returns the bank balance of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_kd": {
+"prefix": "get_kd(player_id)",
+"body": "get_kd(player_id)",
+"description": "Returns the kill-death ratio of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_kills": {
+"prefix": "get_kills(player_id)",
+"body": "get_kills(player_id)",
+"description": "Returns the number of kills by the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_deaths": {
+"prefix": "get_deaths(player_id)",
+"body": "get_deaths(player_id)",
+"description": "Returns the number of deaths of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_language": {
+"prefix": "get_language(player_id)",
+"body": "get_language(player_id)",
+"description": "Returns the language of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"is_using_controller": {
+"prefix": "is_using_controller(player_id)",
+"body": "is_using_controller(player_id)",
+"description": "Checks if the player with the specified ID is using a controller.\n\n- player_id: The ID of the player."
+},
+"get_name_with_tags": {
+"prefix": "get_name_with_tags(player_id)",
+"body": "get_name_with_tags(player_id)",
+"description": "Returns the name of the player with the specified ID, including tags.\n\n- player_id: The ID of the player."
+},
+"get_tags_string": {
+"prefix": "get_tags_string(player_id)",
+"body": "get_tags_string(player_id)",
+"description": "Returns the tags string of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"is_godmode": {
+"prefix": "is_godmode(player_id)",
+"body": "is_godmode(player_id)",
+"description": "Checks if the player with the specified ID has god mode enabled.\n\n- player_id: The ID of the player."
+},
+"is_marked_as_modder": {
+"prefix": "is_marked_as_modder(player_id)",
+"body": "is_marked_as_modder(player_id)",
+"description": "Checks if the player with the specified ID is marked as a modder.\n\n- player_id: The ID of the player."
+},
+"is_marked_as_modder_or_admin": {
+"prefix": "is_marked_as_modder_or_admin(player_id)",
+"body": "is_marked_as_modder_or_admin(player_id)",
+"description": "Checks if the player with the specified ID is marked as a modder or admin.\n\n- player_id: The ID of the player."
+},
+"is_marked_as_admin": {
+"prefix": "is_marked_as_admin(player_id)",
+"body": "is_marked_as_admin(player_id)",
+"description": "Checks if the player with the specified ID is marked as an admin.\n\n- player_id: The ID of the player."
+},
+"is_marked_as_attacker": {
+"prefix": "is_marked_as_attacker(player_id)",
+"body": "is_marked_as_attacker(player_id)",
+"description": "Checks if the player with the specified ID is marked as an attacker.\n\n- player_id: The ID of the player."
+},
+"is_otr": {
+"prefix": "is_otr(player_id)",
+"body": "is_otr(player_id)",
+"description": "Checks if the player with the specified ID is in 'Off the Radar' mode.\n\n- player_id: The ID of the player."
+},
+"is_in_interior": {
+"prefix": "is_in_interior(player_id)",
+"body": "is_in_interior(player_id)",
+"description": "Checks if the player with the specified ID is inside an interior.\n\n- player_id: The ID of the player."
+},
+"is_typing": {
+"prefix": "is_typing(player_id)",
+"body": "is_typing(player_id)",
+"description": "Checks if the player with the specified ID is currently typing.\n\n- player_id: The ID of the player."
+},
+"is_using_vpn": {
+"prefix": "is_using_vpn(player_id)",
+"body": "is_using_vpn(player_id)",
+"description": "Checks if the player with the specified ID is using a VPN.\n\n- player_id: The ID of the player."
+},
+"get_host_token": {
+"prefix": "get_host_token(player_id)",
+"body": "get_host_token(player_id)",
+"description": "Returns the host token of the player with the specified ID as a decimal string.\n\n- player_id: The ID of the player."
+},
+"get_host_token_hex": {
+"prefix": "get_host_token_hex(player_id)",
+"body": "get_host_token_hex(player_id)",
+"description": "Returns the host token of the player with the specified ID as a 16-character padded hexadecimal string.\n\n- player_id: The ID of the player."
+},
+"get_host_queue_position": {
+"prefix": "get_host_queue_position(player_id)",
+"body": "get_host_queue_position(player_id)",
+"description": "Returns the host queue position of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_host_queue": {
+"prefix": "get_host_queue(include_user = true, include_friends = true, include_strangers = true)",
+"body": "get_host_queue(include_user = true, include_friends = true, include_strangers = true)",
+"description": "Returns an index-based table with all matching player IDs, sorted in ascending host queue order.\n\n- include_user: Whether to include the user player (default: true).\n- include_friends: Whether to include friends (default: true).\n- include_strangers: Whether to include strangers (default: true)."
+},
+"get_boss": {
+"prefix": "get_boss(player_id)",
+"body": "get_boss(player_id)",
+"description": "Returns the boss ID of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_org_type": {
+"prefix": "get_org_type(player_id)",
+"body": "get_org_type(player_id)",
+"description": "Returns the organization type of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_org_colour": {
+"prefix": "get_org_colour(player_id)",
+"body": "get_org_colour(player_id)",
+"description": "Returns the organization colour of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"clan_get_motto": {
+"prefix": "clan_get_motto(player_id)",
+"body": "clan_get_motto(player_id)",
+"description": "Returns the motto of the player's clan with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_position": {
+"prefix": "get_position(player_id)",
+"body": "get_position(player_id)",
+"description": "Returns the position of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_vehicle_model": {
+"prefix": "get_vehicle_model(player_id)",
+"body": "get_vehicle_model(player_id)",
+"description": "Returns the model of the vehicle the player with the specified ID is in.\n\n- player_id: The ID of the player."
+},
+"get_bounty": {
+"prefix": "get_bounty(player_id)",
+"body": "get_bounty(player_id)",
+"description": "Returns the bounty value of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"send_sms": {
+"prefix": "send_sms(recipient, text)",
+"body": "send_sms(recipient, text)",
+"description": "Sends an SMS to the specified recipient player.\n\n- recipient: The ID of the recipient player.\n- text: The text message to send."
+},
+"get_cam_pos": {
+"prefix": "get_cam_pos(player_id)",
+"body": "get_cam_pos(player_id)",
+"description": "Returns the camera position of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_cam_rot": {
+"prefix": "get_cam_rot(player_id)",
+"body": "get_cam_rot(player_id)",
+"description": "Returns the camera rotation of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_spectate_target": {
+"prefix": "get_spectate_target(player_id)",
+"body": "get_spectate_target(player_id)",
+"description": "Returns the player ID being spectated by the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_waypoint": {
+"prefix": "get_waypoint(player_id)",
+"body": "get_waypoint(player_id)",
+"description": "Returns the waypoint coordinates set by the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_net_player": {
+"prefix": "get_net_player(player_id)",
+"body": "get_net_player(player_id)",
+"description": "Returns the address of the player's CNetGamePlayer/rage::netPlayer instance or 0.\n\n- player_id: The ID of the player."
+},
+"set_wanted_level": {
+"prefix": "set_wanted_level(player_id, wanted_level)",
+"body": "set_wanted_level(player_id, wanted_level)",
+"description": "Sets the wanted level of the player with the specified ID.\n\n- player_id: The ID of the player.\n- wanted_level: The wanted level to set."
+},
+"give_pickup_reward": {
+"prefix": "give_pickup_reward(player_id, reward)",
+"body": "give_pickup_reward(player_id, reward)",
+"description": "Gives a pickup reward to the player with the specified ID.\n\n- player_id: The ID of the player.\n- reward: The pickup reward to give."
+},
+"get_weapon_damage_modifier": {
+"prefix": "get_weapon_damage_modifier(player_id)",
+"body": "get_weapon_damage_modifier(player_id)",
+"description": "Returns the weapon damage modifier of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"get_melee_weapon_damage_modifier": {
+"prefix": "get_melee_weapon_damage_modifier(player_id)",
+"body": "get_melee_weapon_damage_modifier(player_id)",
+"description": "Returns the melee weapon damage modifier of the player with the specified ID.\n\n- player_id: The ID of the player."
+},
+"add_detection": {
+"prefix": "add_detection(player_id, name, toast_flags = TOAST_DEFAULT, severity = 100)",
+"body": "add_detection(player_id, name, toast_flags = TOAST_DEFAULT, severity = 100)",
+"description": "Adds a detection for the player with the specified ID.\n\n- player_id: The ID of the player.\n- name: The label/name of the detection.\n- toast_flags: The toast flags (default: TOAST_DEFAULT).\n- severity: The severity of the detection (default: 100)."
+},
+"on_flow_event_done": {
+"prefix": "on_flow_event_done(callback)",
+"body": "on_flow_event_done(callback)",
+"description": "Registers a function to be called when a flow event is done.\n\n- callback: The function to be called when the flow event is done."
+},
+"is_visible":{
+"prefix": "bool is_visible(int player_id)",
+"body": "is_visible(${1int player_id})",
+"description": "",
+},
+
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+///--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+"entities": {
+"prefix": "entities.",
+"body": "entities.",
+"description": "Entities Functions"
+},
+"get_upgrade_value": {
+"prefix": "number get_upgrade_value(int handle_or_ptr, int modType).",
+"body": "get_upgrade_value(int handle_or_ptr, int modType)",
+"description": ""
+},
+"get_upgrade_max_value": {
+"prefix": "number get_upgrade_max_value(int handle_or_ptr, int modType)",
+"body": "get_upgrade_max_value(int handle_or_ptr, int modType)",
+"description": ""
+},
+"get_upgrade_max_value": {
+"prefix": "number get_upgrade_max_value(int handle_or_ptr, int modType)",
+"body": "get_upgrade_max_value(int handle_or_ptr, int modType)",
+"description": ""
+},
+"create_ped": {
+"prefix": "int create_ped(int type, int hash, Vector3 pos, number heading)",
+"body": "create_ped(int type, int hash, Vector3 pos, number heading)",
+"description": "A wrapper for the PED.CREATE_PED native. Returns INVALID_GUID on failure."
+},
+"create_vehicle": {
+"prefix": "int create_vehicle(int hash, Vector3 pos, number heading)",
+"body": "create_vehicle(int hash, Vector3 pos, number heading)",
+"description": "A wrapper for the VEHICLE.CREATE_VEHICLE native. Returns INVALID_GUID on failure."
+},
+"create_object": {
+"prefix": "int create_object(int hash, Vector3 pos)",
+"body": "create_object(int hash, Vector3 pos)",
+"description": "A wrapper for the OBJECT.CREATE_OBJECT_NO_OFFSET native. Returns INVALID_GUID on failure."
+},
+"get_user_vehicle_as_handle": {
+"prefix": "int get_user_vehicle_as_handle(bool include_last_vehicle = true)",
+"body": "get_user_vehicle_as_handle(bool include_last_vehicle = true)",
+"description": "Returns INVALID_GUID if vehicle not found."
+},
+"get_user_vehicle_as_pointer": {
+"prefix": "int get_user_vehicle_as_pointer(bool include_last_vehicle = true)",
+"body": "get_user_vehicle_as_pointer(bool include_last_vehicle = true)",
+"description": "Returns 0 if vehicle not found."
+},
+"get_user_personal_vehicle_as_handle": {
+"prefix": "int get_user_personal_vehicle_as_handle()",
+"body": "get_user_personal_vehicle_as_handle()",
+"description": ""
+},
+"handle_to_pointer": {
+"prefix": "int handle_to_pointer(int handle)",
+"body": "handle_to_pointer(int_handle)",
+"description": "Returns the address of the entity with the given script handle."
+},
+"has_handle": {
+"prefix": "bool has_handle(int addr)",
+"body": "has_handle(int addr)",
+"description": "Returns true if the entity with the given address has a script handle."
+},
+"pointer_to_handle": {
+"prefix": "int pointer_to_handle(int addr)",
+"body": "pointer_to_handle(int addr)",
+"description": "Returns a script handle for the entity with the given address. If the entity does not have a script handle, one will be assigned to it. Note that script handles are a limited resource and allocating too many of them can cause the game to become unstable or even crash."
+},
+"get_all_vehicles_as_handles": {
+"prefix": "table<int, int> get_all_vehicles_as_handles()",
+"body": "get_all_vehicles_as_handles()",
+"description": "This will force a script handle to be allocated for all vehicles. Note that script handles are a limited resource and allocating too many of them can cause the game to become unstable or even crash."
+},
+"get_all_vehicles_as_pointers": {
+"prefix": "table<int, int> get_all_vehicles_as_pointers()",
+"body": "get_all_vehicles_as_pointers()",
+"description": ""
+},
+"get_all_peds_as_handles": {
+"prefix": "table<int, int> get_all_peds_as_handles()",
+"body": "get_all_peds_as_handles()",
+"description": "This will force a script handle to be allocated for all peds. Note that script handles are a limited resource and allocating too many of them can cause the game to become unstable or even crash."
+},
+"get_all_peds_as_pointers": {
+"prefix": "table<int, int> get_all_peds_as_pointers()",
+"body": "get_all_peds_as_pointers()",
+"description": ""
+},
+"get_all_objects_as_handles": {
+"prefix": "table<int, int> get_all_objects_as_handles()",
+"body": "get_all_objects_as_handles()",
+"description": "This will force a script handle to be allocated for all objects. Note that script handles are a limited resource and allocating too many of them can cause the game to become unstable or even crash."
+},
+"get_all_objects_as_pointers": {
+"prefix": "table<int, int> get_all_objects_as_pointers()",
+"body": "get_all_objects_as_pointers()",
+"description": ""
+},
+"get_all_pickups_as_handles": {
+"prefix": "table<int, int> get_all_pickups_as_handles()",
+"body": "get_all_pickups_as_handles()",
+"description": "This will force a script handle to be allocated for all pickups. Note that script handles are a limited resource and allocating too many of them can cause the game to become unstable or even crash."
+},
+"get_all_pickups_as_pointers": {
+"prefix": "table<int, int> get_all_pickups_as_pointers()",
+"body": "get_all_pickups_as_pointers()",
+"description": ""
+},
+"delete_by_handle": {
+"prefix": "void delete_by_handle(int handle_or_ptr)",
+"body": "delete_by_handle(${1:int handle_or_ptr})",
+"description": "This will handle control requests on its own, and force deletion locally if control cannot be obtained."
+},
+"get_model_hash": {
+"prefix": "int get_model_hash(int addr)",
+"body": "get_model_hash(int addr)",
+"description": ""
+},
+"get_position": {
+"prefix": "Vector3 get_position(int addr)",
+"body": "get_position(int addr)",
+"description": "The result might be less precise than the native counterpart."
+},
+"get_rotation": {
+"prefix": "Vector3 get_rotation(int addr)",
+"body": "get_rotation(int addr)",
+"description": "The result might be less precise than the native counterpart."
+},
+"get_health": {
+"prefix": "number get_health(int addr)",
+"body": "get_health(int addr)",
+"description": ""
+},
+"get_current_gear": {
+"prefix": "int get_current_gear(int addr)",
+"body": "get_current_gear(int addr)",
+"description": "Only applicable to vehicles."
+},
+"set_current_gear": {
+"prefix": "void set_current_gear(int addr, int current_gear)",
+"body": "set_current_gear(int addr, int current_gear)",
+"description": "Only applicable to vehicles."
+},
+"get_next_gear": {
+"prefix": "int get_next_gear(int addr)",
+"body": "get_next_gear(int addr)",
+"description": "Only applicable to vehicles."
+},
+"set_next_gear": {
+"prefix": "void set_next_gear(int addr, int next_gear)",
+"body": "set_next_gear(int addr, int next_gear)",
+"description": "Only applicable to vehicles."
+},
+"get_rpm": {
+"prefix": "number get_rpm(int addr)",
+"body": "get_rpm(int addr)",
+"description": "Only applicable to vehicles."
+},
+"set_rpm": {
+"prefix": "void set_rpm(int addr, float rpm)",
+"body": "set_rpm(int addr, float rpm)",
+"description": "Only applicable to vehicles."
+},
+"get_gravity": {
+"prefix": "number get_gravity(int addr)",
+"body": "get_gravity(int addr)",
+"description": "Only applicable to vehicles."
+},
+"set_gravity": {
+"prefix": "number set_gravity(int addr, number gravity)",
+"body": "set_gravity(int addr, number gravity)",
+"description": "Only applicable to vehicles."
+},
+"set_gravity_multiplier": {
+"prefix": "number set_gravity_multiplier(int addr, number gravity_multiplier)",
+"body": "set_gravity_multiplier(int addr, number gravity_multiplier)",
+"description": "Only applicable to vehicles."
+},
+"get_boost_charge": {
+"prefix": "number get_boost_charge(int addr)",
+"body": "get_boost_charge(int addr)",
+"description": "Only applicable to vehicles. Returns a value between 0.0 and 1.25."
+},
+"get_draw_handler": {
+"prefix": "int get_draw_handler(int addr)",
+"body": "get_draw_handler(int addr)",
+"description": "Returns a pointer or 0."
+},
+"vehicle_draw_handler_get_pearlecent_colour": {
+"prefix": "int vehicle_draw_handler_get_pearlecent_colour(int addr)",
+"body": "vehicle_draw_handler_get_pearlecent_colour(int addr)",
+"description": ""
+},
+"vehicle_draw_handler_get_wheel_colour": {
+"prefix": "int vehicle_draw_handler_get_wheel_colour(int addr)",
+"body": "vehicle_draw_handler_get_wheel_colour(int addr)",
+"description": ""
+},
+"get_vehicle_has_been_owned_by_player": {
+"prefix": "bool get_vehicle_has_been_owned_by_player(int addr)",
+"body": "get_vehicle_has_been_owned_by_player(int addr)",
+"description": ""
+},
+"get_player_info": {
+"prefix": "int get_player_info(int addr)",
+"body": "get_player_info(int addr)",
+"description": "Only applicable to peds."
+},
+"player_info_get_game_state": {
+"prefix": "int player_info_get_game_state(int addr)",
+"body": "player_info_get_game_state(int addr)",
+"description": ""
+},
+"get_weapon_manager": {
+"prefix": "int get_weapon_manager(int addr)",
+"body": "get_weapon_manager(int addr)",
+"description": "Only applicable to peds."
+},
+"get_head_blend_data": {
+"prefix": "int get_head_blend_data(int addr)",
+"body": "get_head_blend_data(int addr)",
+"description": ""
+},
+"get_owner": {
+"prefix": "int get_owner(int addr)",
+"body": "get_owner(int addr)",
+"description": "Returns the ID of the player that owns this entity."
+},
+"set_can_migrate": {
+"prefix": "void set_can_migrate(int addr, bool can_migrate)",
+"body": "set_can_migrate(int addr, bool can_migrate)",
+"description": "Prevents ambient ownership changes so that only explicit requests will be processed."
+},
+"give_control_by_handle": {
+"prefix": "void give_control_by_handle(int handle_or_ptr, int player)",
+"body": "give_control_by_handle(${1:int handle_or_ptr}, ${2:int player})",
+"description": ""
+},
+"vehicle_get_handling": {
+"prefix": "int vehicle_get_handling(int addr)",
+"body": "vehicle_get_handling(int addr)",
+"description": ""
+},
+"handling_get_subhandling": {
+"prefix": "int handling_get_subhandling(int handling_addr, int type)",
+"body": "handling_get_subhandling(int handling_addr, int type)",
+"description": "Type:\n\n0 = HANDLING_TYPE_BIKE\n1 = HANDLING_TYPE_FLYING\n2 = HANDLING_TYPE_VERTICAL_FLYING\n3 = HANDLING_TYPE_BOAT\n4 = HANDLING_TYPE_SEAPLANE\n5 = HANDLING_TYPE_SUBMARINE\n6 = HANDLING_TYPE_TRAIN\n7 = HANDLING_TYPE_TRAILER\n8 = HANDLING_TYPE_CAR\n9 = HANDLING_TYPE_WEAPON\nYou can view the relevant handling types for your current vehicle by opening with the Handling Editor: Vehicle > Movement > Handling Editor."
+},
+"detach_wheel": {
+"prefix": "void detach_wheel(int addr, int wheel_index)",
+"body": "detach_wheel(int addr, int wheel_index)",
+"description": ""
+},
+
+"chat": {
+"prefix": "chat.",
+"body": "chat.",
+"description": "Chat Functions"
+},
+"on_message": {
+"prefix": "on_message(function callback)",
+"body": "int on_message(function callback)",
+"description": "Registers a function to be called when a chat message is sent:\n\non_message(function(sender, reserved, text, team_chat, networked, is_auto)\n\n-- Do stuff...\n\nend)"
+},
+"send_message": {
+"prefix": "void send_message(string text, bool team_chat, bool add_to_local_history, bool networked)",
+"body": "send_message(${1:string text}, ${2:bool team_chat}, ${3:bool add_to_local_history}, ${4:bool networked})",
+"description": "Sends a message in the \n\n- text: The message text to be sent.\n- team_chat: Indicates if the message should be sent in team \n- add_to_local_history: Specifies whether to add the message to the local chat history.\n- networked: Specifies whether to send the message over the network."
+},
+"send_targeted_message": {
+"prefix": "void send_targeted_message(int recipient, int sender, string text, bool team_chat)",
+"body": "send_targeted_message(${1:int recipient}, ${2:int sender}, ${3:string text}, ${4:bool team_chat})",
+"description": "Sends a targeted message to a specific recipient.\n\n- recipient: The ID of the message recipient.\n- sender: The ID of the message sender.\n- text: The message text to be sent.\n- team_chat: Indicates if the message should be sent in team "
+},
+"get_state": {
+"prefix": "int get_state()",
+"body": "get_state()",
+"description": "Returns the current state of the \n\nPossible return values:\n\n0 = Closed\n1 = Writing in team chat\n2 = Writing in all chat"
+},
+"is_open": {
+"prefix": "bool is_open()",
+"body": "is_open()",
+"description": "Checks if the chat is currently open."
+},
+"open": {
+"prefix": "void open()",
+"body": "open()",
+"description": "Opens the chat for input."
+},
+"close": {
+"prefix": "void close()",
+"body": "close()",
+"description": "Closes the "
+},
+"get_draft": {
+"prefix": "string get_draft()",
+"body": "get_draft()",
+"description": "Returns the message that the user is currently drafting or an empty string if not applicable."
+},
+"ensure_open_with_empty_draft": {
+"prefix": "void ensure_open_with_empty_draft(bool team_chat)",
+"body": "ensure_open_with_empty_draft(${1:bool team_chat})",
+"description": "Ensures that the chat is open with an empty draft.\n\n- team_chat: Indicates if the chat should be opened for team "
+},
+"add_to_draft": {
+"prefix": "void add_to_draft(string appendix)",
+"body": "add_to_draft(${1:string appendix})",
+"description": "Adds the specified text to the current chat draft.\n\n- appendix: The text to append to the draft."
+},
+"remove_from_draft": {
+"prefix": "void remove_from_draft(int characters)",
+"body": "remove_from_draft(${1:int characters})",
+"description": "Removes the specified number of characters from the current chat draft.\n\n- characters: The number of characters to remove from the draft."
+},
+
+"directx": {
+"prefix": "directx.",
+"body": "directx.",
+"description": "Directx Functions\n\nAny X and Y value must be between 0.0 to 1.0.\n\nThe draw functions are in the HUD coordinate space, which is superimposed 1920x1080.\n\nYou can also append _client to any draw function, e.g. draw_line_client to draw in client coordinate space, which is based on the game window size."
+},
+"create_texture": {
+"prefix": "int create_texture(string path)",
+"body": "create_texture(${1:path})",
+"description": "Creates a DirectX texture from the specified image file.\n\n- path: The absolute path to the image file. It is recommended to use an absolute path using filesystem.resources_dir()."
+},
+"draw_texture": {
+"prefix": "void draw_texture(int id, number sizeX, number sizeY, number centerX, number centerY, number posX, number posY, number rotation, Colour colour)",
+"body": "draw_texture(${1:id}, ${2:sizeX}, ${3:sizeY}, ${4:centerX}, ${5:centerY}, ${6:posX}, ${7:posY}, ${8:rotation}, ${9:colour})",
+"description": "Draws a texture using \n\n- id: The ID of the texture to be drawn.\n- sizeX: The size of the texture along the X-axis.\n- sizeY: The size of the texture along the Y-axis.\n- centerX: The X-coordinate of the center of the texture.\n- centerY: The Y-coordinate of the center of the texture.\n- posX: The X-coordinate of the position where the texture will be drawn.\n- posY: The Y-coordinate of the position where the texture will be drawn.\n- rotation: The rotation angle of the texture in degrees.\n- colour: The color of the texture as a Colour object."
+},
+"draw_text": {
+"prefix": "void draw_text(number x, number y, string text, int alignment, number scale, Colour colour, bool force_in_bounds = false)",
+"body": "draw_text(${1:x}, ${2:y}, ${3:text}, ${4:alignment}, ${5:scale}, ${6:colour}, ${7:force_in_bounds})",
+"description": "Draws text using \n\n- x: The X-coordinate of the position where the text will be drawn.\n- y: The Y-coordinate of the position where the text will be drawn.\n- text: The text to be drawn.\n- alignment: The alignment of the text.\n- scale: The scale of the text.\n- colour: The color of the text as a Colour object.\n- force_in_bounds: Indicates whether to force the text to be within the bounds."
+},
+"draw_rect": {
+"prefix": "void draw_rect(number x, number y, number width, number height, Colour colour)",
+"body": "draw_rect(${1:x}, ${2:y}, ${3:width}, ${4:height}, ${5:colour})",
+"description": "Draws a rectangle using \n\n- x: The X-coordinate of the top-left corner of the rectangle.\n- y: The Y-coordinate of the top-left corner of the rectangle.\n- width: The width of the rectangle.\n- height: The height of the rectangle.\n- colour: The color of the rectangle as a Colour object."
+},
+"draw_line": {
+"prefix": "void draw_line(number x1, number y1, number x2, number y2, Colour colour)",
+"body": "draw_line(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:colour})",
+"description": "Draws a line using \n\n- x1: The X-coordinate of the start point of the line.\n- y1: The Y-coordinate of the start point of the line.\n- x2: The X-coordinate of the end point of the line.\n- y2: The Y-coordinate of the end point of the line.\n- colour: The color of the line as a Colour object."
+},
+"draw_triangle": {
+"prefix": "void draw_triangle(number x1, number y1, number x2, number y2, number x3, number y3, Colour colour)",
+"body": "draw_triangle(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:x3}, ${6:y3}, ${7:colour})",
+"description": "Draws a triangle using \n\n- x1: The X-coordinate of the first vertex of the triangle.\n- y1: The Y-coordinate of the first vertex of the triangle.\n- x2: The X-coordinate of the second vertex of the triangle.\n- y2: The Y-coordinate of the second vertex of the triangle.\n- x3: The X-coordinate of the third vertex of the triangle.\n- y3: The Y-coordinate of the third vertex of the triangle.\n- colour: The color of the triangle as a Colour object."
+},
+"get_client_size": {
+"prefix": "number, number get_client_size()",
+"body": "get_client_size()",
+"description": "Returns the width and height of the DirectX client area."
+},
+"get_text_size": {
+"prefix": "number, number get_text_size(string text, number scale = 1.0)",
+"body": "get_text_size(${1:text}, ${2:scale})",
+"description": "Returns the width and height of the specified text when rendered using \n\n- text: The text to measure.\n- scale: The scale of the text."
+},
+"pos_hud_to_client": {
+"prefix": "number, number pos_hud_to_client(number x, number y)",
+"body": "pos_hud_to_client(${1:x}, ${2:y})",
+"description": "Converts HUD coordinates to client coordinates.\n\n- x: The X-coordinate in HUD space.\n- y: The Y-coordinate in HUD space."
+},
+"size_hud_to_client": {
+"prefix": "number, number size_hud_to_client(number x, number y)",
+"body": "size_hud_to_client(${1:x}, ${2:y})",
+"description": "Converts HUD size to client size.\n\n- x: The width in HUD space.\n- y: The height in HUD space."
+},
+"pos_client_to_hud": {
+"prefix": "number, number pos_client_to_hud(number x, number y)",
+"body": "pos_client_to_hud(${1:x}, ${2:y})",
+"description": "Converts client coordinates to HUD coordinates.\n\n- x: The X-coordinate in client space.\n- y: The Y-coordinate in client space."
+},
+"size_client_to_hud": {
+"prefix": "number, number size_client_to_hud(number x, number y)",
+"body": "size_client_to_hud(${1:x}, ${2:y})",
+"description": "Converts client size to HUD size.\n\n- x: The width in client space.\n- y: The height in client space."
+},
+"blurrect_new": {
+"prefix": "int blurrect_new()",
+"body": "blurrect_new()",
+"description": "Creates a new blurrect instance for drawing rectangles."
+},
+"blurrect_free": {
+"prefix": "void blurrect_free(int instance)",
+"body": "blurrect_free(${1:instance})",
+"description": "Frees a blurrect instance.\n\n- instance: The ID of the blurrect instance to free."
+},
+"blurrect_draw": {
+"prefix": "void blurrect_draw(int instance, number x, number y, number width, number height, int strength)",
+"body": "blurrect_draw(${1:instance}, ${2:x}, ${3:y}, ${4:width}, ${5:height}, ${6:strength})",
+"description": "Draws a blurrect using \n\n- instance: The ID of the blurrect instance.\n- x: The X-coordinate of the top-left corner of the blurrect.\n- y: The Y-coordinate of the top-left corner of the blurrect.\n- width: The width of the blurrect.\n- height: The height of the blurrect.\n- strength: The strength of the blurrect (recommended around 4, cannot exceed 255)."
+},
+
+"util": {
+"prefix": "util.",
+"body": "util.",
+"description": "Util Functions"
+},
+"require_natives": {
+"prefix": "void require_natives(int|string version, ?string flavour)",
+"body": "require_natives(${1:version}, ${2:flavour})",
+"description": "Loads the natives lib with the provided version, installing it from the repository if needed.\n\n- version: The version of the natives lib to load.\n- flavour: Optional. The flavour of the natives lib."
+},
+"execute_in_os_thread": {
+"prefix": "void execute_in_os_thread(function func)",
+"body": "execute_in_os_thread(${1:func})",
+"description": "Executes the given function in an OS thread to avoid holding up the game for expensive tasks.\n\n- func: The function to execute in the OS thread."
+},
+"require_no_lag": {
+"prefix": "void require_no_lag(string file)",
+"body": "require_no_lag(${1:file})",
+"description": "Loads a Lua file in an OS thread to avoid holding up the game.\n\n- file: The path to the Lua file to load."
+},
+"create_tick_handler": {
+"prefix": "void create_tick_handler(function func)",
+"body": "create_tick_handler(${1:func})",
+"description": "Registers a function to be called every tick until it returns false.\n\n- func: The function to be called every tick.\n\ncreate_tick_handler(function()\n\n-- Code that runs every tick...\n\nend)"
+},
+"try_run": {
+"prefix": "void try_run(function func)",
+"body": "try_run(${1:func})",
+"description": "Attempts to run the provided function and prevents Stand from cleaning up your script for being idle.\n\n- func: The function to attempt to run."
+},
+"keep_running": {
+"prefix": "void keep_running()",
+"body": "keep_running()",
+"description": "Prevents Stand from cleaning up your script for being idle. This is implicit when you create commands, register event handlers, or use the async_http API."
+},
+"yield": {
+"prefix": "void yield(?int wake_in_ms = nil)",
+"body": "yield(${1:wake_in_ms})",
+"description": "Pauses the execution of the calling thread until the next tick or for a specified number of milliseconds.\n\n- wake_in_ms: Optional. The number of milliseconds to pause execution.\n\nwhile true do\n\n-- Code that runs every tick...\n\nyield()\n\nend\n\nFor simple loops, you should prefer create_tick_handler."
+},
+"set_busy": {
+"prefix": "void set_busy(bool busy)",
+"body": "set_busy(${1:busy})",
+"description": "Sets the busy state of the script.\n\n- busy: Boolean value indicating whether the script is busy."
+},
+"create_thread": {
+"prefix": "void create_thread(function thread_func, ...)",
+"body": "create_thread(${1:thread_func}, ...)",
+"description": "Creates a new thread that gets resumed every tick and is expected to yield or return.\n\n- thread_func: The function representing the thread.\n- ...: Optional additional arguments to pass to the thread function."
+},
+"stop_thread": {
+"prefix": "void stop_thread()",
+"body": "stop_thread()",
+"description": "Stops the calling thread."
+},
+"restart_script": {
+"prefix": "void restart_script()",
+"body": "restart_script()",
+"description": "Restarts the script by going through the script stop process, reloading the script file, and starting the main thread again."
+},
+"stop_script": {
+"prefix": "void stop_script()",
+"body": "stop_script()",
+"description": "Stops the script."
+},
+"on_pre_stop": {
+"prefix": "void on_pre_stop(function func)",
+"body": "on_pre_stop(${1:func})",
+"description": "Registers a function to be called before the script stop process."
+},
+"on_stop": {
+"prefix": "void on_stop(function func)",
+"body": "on_stop(${1:func})",
+"description": "Registers a function to be called during the script stop process."
+},
+"toast": {
+"prefix": "void toast(string message, int bitflags = TOAST_DEFAULT)",
+"body": "toast(${1:message}, ${2:bitflags})",
+"description": "Shows a notification toast.\n\n- message: The message to display.\n- bitflags: Optional bit flags specifying the toast behavior."
+},
+"log": {
+"prefix": "void log(string message)",
+"body": "log(${1:message})",
+"description": "Logs a message using the toast logger.\n\n- message: The message to log."
+},
+"draw_debug_text": {
+"prefix": "void draw_debug_text(string text)",
+"body": "draw_debug_text(${1:text})",
+"description": "Draws the given text for the current tick using the 'Info Text' system.\n\n- text: The text to draw."
+},
+"draw_centred_text": {
+"prefix": "void draw_centred_text(string text)",
+"body": "draw_centred_text(${1:text})",
+"description": "Draws the given text centered for the current tick using the 'Info Text' system.\n\n- text: The text to draw."
+},
+"show_corner_help": {
+"prefix": "void show_corner_help(string message)",
+"body": "show_corner_help(${1:message})",
+"description": "Shows a corner help message.\n\n- message: The message to display\n\nShorthand for\n\nBEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(message)\n\nif not HUD.END_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(0) then\n\nBEGIN_TEXT_COMMAND_DISPLAY_HELP(message)\n\nHUD.END_TEXT_COMMAND_DISPLAY_HELP(0, false, true, -1)\n\nend"
+},
+"replace_corner_help": {
+"prefix": "void replace_corner_help(string message, string replacement_message)",
+"body": "replace_corner_help(${1:message}, ${2:replacement_message})",
+"description": "Replaces the corner help message with a new message.\n\n- message: The original corner help message.\n- replacement_message: The replacement corner help message."
+},
+"set_local_player_wanted_level": {
+"prefix": "void set_local_player_wanted_level(int wanted_level)",
+"body": "set_local_player_wanted_level(${1:wanted_level})",
+"description": "Sets the wanted level for the local player.\n\n- wanted_level: The desired wanted level."
+},
+"joaat": {
+"prefix": "int joaat(string text)",
+"body": "joaat(${1:text})",
+"description": "Computes the RAGE's version of JOAAT hash for the given text.\n\n- text: The text to compute the hash for.\n\nReturns: The computed hash as a signed integer."
+},
+"ujoaat": {
+"prefix": "int ujoaat(string text)",
+"body": "ujoaat(${1:text})",
+"description": "Computes the RAGE's version of JOAAT hash for the given text, returning an unsigned number.\n\n- text: The text to compute the hash for.\n\nReturns: The computed hash as an unsigned integer."
+},
+"reverse_joaat": {
+"prefix": "string reverse_joaat(int hash)",
+"body": "reverse_joaat(${1:hash})",
+"description": "Reverses the RAGE's version of JOAAT hash to its corresponding text.\n\n- hash: The hash to reverse.\n\nReturns: The reversed text if the hash is found, or an empty string if the hash is not found."
+},
+"is_this_model_a_blimp": {
+"prefix": "bool is_this_model_a_blimp(int|string model)",
+"body": "is_this_model_a_blimp(${1:model})",
+"description": "Checks if the given model is a blimp.\n\n- model: The model to check.\n\nReturns: True if the model is a blimp, false otherwise."
+},
+"is_this_model_an_object": {
+"prefix": "bool is_this_model_an_object(int|string model)",
+"body": "is_this_model_an_object(${1:model})",
+"description": "Checks if the given model is an object.\n\n- model: The model to check.\n\nReturns: True if the model is an object, false otherwise."
+},
+"is_this_model_a_submarine": {
+"prefix": "bool is_this_model_a_submarine(int|string model)",
+"body": "is_this_model_a_submarine(${1:model})",
+"description": "Checks if the given model is a submarine.\n\n- model: The model to check.\n\nReturns: True if the model is a submarine, false otherwise."
+},
+"is_this_model_a_trailer": {
+"prefix": "bool is_this_model_a_trailer(int|string model)",
+"body": "is_this_model_a_trailer(${1:model})",
+"description": "Checks if the given model is a trailer.\n\n- model: The model to check.\n\nReturns: True if the model is a trailer, false otherwise."
+},
+"get_vehicles": {
+"prefix": "table<int, table> get_vehicles()",
+"body": "get_vehicles()",
+"description": "Returns a table containing information about all the vehicles in the game.\n\nReturns: An index-based table where each entry contains the vehicle's name, manufacturer, and class."
+},
+"get_weapons": {
+"prefix": "table<int, table> get_weapons()",
+"body": "get_weapons()",
+"description": "Returns a table containing information about all the weapons in the game.\n\nReturns: An index-based table where each entry contains the weapon's hash, label_key, category, and category_id."
+},
+"BEGIN_TEXT_COMMAND_DISPLAY_TEXT": {
+"prefix": "void BEGIN_TEXT_COMMAND_DISPLAY_TEXT(string message)",
+"body": "BEGIN_TEXT_COMMAND_DISPLAY_TEXT(${1:message})",
+"description": "Begins a new text command to display a text message.\n\n- message: The message to display."
+},
+"_BEGIN_TEXT_COMMAND_LINE_COUNT": {
+"prefix": "void _BEGIN_TEXT_COMMAND_LINE_COUNT(string message)",
+"body": "_BEGIN_TEXT_COMMAND_LINE_COUNT(${1:message})",
+"description": "Begins a new text command to count the number of lines in a text message.\n\n- message: The message to count lines for."
+},
+"BEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED": {
+"prefix": "void BEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(string message)",
+"body": "BEGIN_TEXT_COMMAND_IS_THIS_HELP_MESSAGE_BEING_DISPLAYED(${1:message})",
+"description": "Begins a new text command to check if a help message is being displayed.\n\n- message: The help message to check."
+},
+"BEGIN_TEXT_COMMAND_DISPLAY_HELP": {
+"prefix": "void BEGIN_TEXT_COMMAND_DISPLAY_HELP(string message)",
+"body": "BEGIN_TEXT_COMMAND_DISPLAY_HELP(${1:message})",
+"description": "Begins a new text command to display a help message.\n\n- message: The help message to display."
+},
+"_BEGIN_TEXT_COMMAND_GET_WIDTH": {
+"prefix": "void _BEGIN_TEXT_COMMAND_GET_WIDTH(string message)",
+"body": "_BEGIN_TEXT_COMMAND_GET_WIDTH(${1:message})",
+"description": "Begins a new text command to get the width of a text message.\n\n- message: The message to get the width for."
+},
+"BEGIN_TEXT_COMMAND_THEFEED_POST": {
+"prefix": "void BEGIN_TEXT_COMMAND_THEFEED_POST(string message)",
+"body": "BEGIN_TEXT_COMMAND_THEFEED_POST(${1:message})",
+"description": "Begins a new text command to post a message to the game's feed.\n\n- message: The message to post."
+},
+"get_rp_required_for_rank": {
+"prefix": "int get_rp_required_for_rank(int rank)",
+"body": "get_rp_required_for_rank(${1:rank})",
+"description": "Returns the RP (Experience Points) required to reach a certain rank.\n\n- rank: The desired rank.\n\nReturns: The RP required for the rank."
+},
+"get_session_players_bitflag": {
+"prefix": "int get_session_players_bitflag()",
+"body": "get_session_players_bitflag()",
+"description": "Returns a bit flag representing the session players.\n\nReturns: The session players bit flag."
+},
+"trigger_script_event": {
+"prefix": "void trigger_script_event(int session_player_bitflags, table<any, int> args, bool reinterpret_floats = false)",
+"body": "trigger_script_event(${1:session_player_bitflags}, ${2:args}, ${3:reinterpret_floats})",
+"description": "Triggers a script event for the specified session players with the given arguments.\n\n- session_player_bitflags: Bit flag representing the session players who should receive the event.\n- args: Table containing the event arguments.\n- reinterpret_floats: Specifies whether to reinterpret float arguments as floats instead of integers."
+},
+"current_time_millis": {
+"prefix": "int current_time_millis()",
+"body": "current_time_millis()",
+"description": "Returns the current time in milliseconds since the UNIX epoch.\n\nReturns: The current time in milliseconds."
+},
+"current_unix_time_seconds": {
+"prefix": "int current_unix_time_seconds()",
+"body": "current_unix_time_seconds()",
+"description": "Returns the current time in seconds since the UNIX epoch.\n\nReturns: The current time in seconds."
+},
+"remove_handler": {
+"prefix": "bool remove_handler(int handler_id)",
+"body": "remove_handler(${1:handler_id})",
+"description": "Removes a registered handler with the specified ID.\n\n- handler_id: The ID of the handler to remove.\n\nReturns: True if the handler was successfully removed, false otherwise."
+},
+"is_session_started": {
+"prefix": "bool is_session_started()",
+"body": "is_session_started()",
+"description": "Checks if a session has started.\n\nReturns: True if a session has started, false otherwise."
+},
+"is_session_transition_active": {
+"prefix": "bool is_session_transition_active()",
+"body": "is_session_transition_active()",
+"description": "Checks if a session transition is currently active.\n\nReturns: True if a session transition is active, false otherwise."
+},
+"get_char_slot": {
+"prefix": "int get_char_slot()",
+"body": "get_char_slot()",
+"description": "Returns the character slot index of the current player.\n\nReturns: The character slot index."
+},
+"get_ground_z": {
+"prefix": "bool, number get_ground_z(number x, number y, number z_hint = 1000.0)",
+"body": "get_ground_z(${1:x}, ${2:y}, ${3:z_hint})",
+"description": "Returns the ground Z coordinate at the specified position.\n\n- x: The X coordinate.\n- y: The Y coordinate.\n- z_hint: The Z coordinate hint.\n\nReturns: A boolean value indicating if the ground Z coordinate was successfully retrieved, and the ground Z coordinate if available."
+},
+"spoof_script": {
+"prefix": "bool spoof_script(string|int script, function func)",
+"body": "spoof_script(${1:script}, ${2:func})",
+"description": "Spoofs the execution of the provided script by invoking the specified function.\n\n- script: The name or hash of the script to spoof.\n- func: The function to execute as the spoofed script.\n\nReturns: True if the script is running and the function was successfully called, false otherwise."
+},
+"remove_blip": {
+"prefix": "bool remove_blip(int blip)",
+"body": "remove_blip(${1:blip})",
+"description": "Removes the specified blip from the game world.\n\n- blip: The handle of the blip to remove.\n\nReturns: True if the blip was successfully removed, false otherwise."
+},
+"arspinner_enable": {
+"prefix": "void arspinner_enable()",
+"body": "arspinner_enable()",
+"description": "Enables the AR spinner."
+},
+"arspinner_disable": {
+"prefix": "void arspinner_disable()",
+"body": "arspinner_disable()",
+"description": "Disables the AR spinner."
+},
+"is_bigmap_active": {
+"prefix": "bool is_bigmap_active()",
+"body": "is_bigmap_active()",
+"description": "Checks if the big map is currently active.\n\nReturns: True if the big map is active, false otherwise."
+},
+"copy_to_clipboard": {
+"prefix": "void copy_to_clipboard(string text, bool notify = true)",
+"body": "copy_to_clipboard(${1:text}, ${2:notify})",
+"description": "Copies the specified text to the clipboard.\n\n- text: The text to copy.\n- notify: Specifies whether to display a notification message after copying (default: true)."
+},
+"get_clipboard_text": {
+"prefix": "string get_clipboard_text()",
+"body": "get_clipboard_text()",
+"description": "Retrieves the text currently stored in the clipboard.\n\nReturns: The text in the clipboard, or an empty string if the clipboard is empty or inaccessible."
+},
+"read_colons_and_tabs_file": {
+"prefix": "table<string,string> read_colons_and_tabs_file(string file)",
+"body": "read_colons_and_tabs_file(${1:file})",
+"description": "Reads a file in the colons and tabs format used by Stand for profiles, hotkeys, etc.\n\n- file: The path to the file to read.\n\nReturns: A table containing the data read from the file."
+},
+"write_colons_file": {
+"prefix": "void write_colons_file(string file, table<string,string> data)",
+"body": "write_colons_file(${1:file}, ${2:data})",
+"description": "Writes data to a file in the colons and tabs format used by Stand.\n\n- file: The path to the file to write.\n- data: The table containing the data to write to the file."
+},
+"draw_ar_beacon": {
+"prefix": "void draw_ar_beacon(Vector3 pos)",
+"body": "draw_ar_beacon(${1:pos})",
+"description": "Draws an AR beacon at the specified position.\n\n- pos: The position of the AR beacon."
+},
+"draw_box": {
+"prefix": "void draw_box(Vector3 pos, Vector3 rot, Vector3 dimensions, int r, int g, int b, int a = 255)",
+"body": "draw_box(${1:pos}, ${2:rot}, ${3:dimensions}, ${4:r}, ${5:g}, ${6:b}, ${7:a})",
+"description": "Draws a 3D box with rotation using polygons.\n\n- pos: The position of the box.\n- rot: The rotation of the box.\n- dimensions: The dimensions of the box.\n- r: The red component of the box color.\n- g: The green component of the box color.\n- b: The blue component of the box color.\n- a: The alpha component of thebox color (default: 255)."
+},
+"request_script_host": {
+"prefix": "bool request_script_host(string|int script)",
+"body": "request_script_host(${1:script})",
+"description": "Requests to become the script host for the specified script.\n\n- script: The name or hash of the script to request host for.\n\nReturns: True if the request is successful, false otherwise."
+},
+"give_script_host": {
+"prefix": "bool give_script_host(string|int script, int player)",
+"body": "give_script_host(${1:script}, ${2:player})",
+"description": "Gives the script host privilege to the specified player for the specified script.\n\n- script: The name or hash of the script.\n- player: The player ID to give script host privilege to.\n\nReturns: True if the script host privilege is successfully given, false otherwise."
+},
+"register_file": {
+"prefix": "bool register_file(string path)",
+"body": "register_file(${1:path})",
+"description": "Registers the specified file in the game, allowing it to be used with natives.\n\n- path: The path to the file to register.\n\nReturns: True if the file is successfully registered, false otherwise."
+},
+"get_label_text": {
+"prefix": "string get_label_text(int|string label_key)",
+"body": "get_label_text(${1:label_key})",
+"description": "Retrieves the text of the specified label without any replacements made by Stand.\n\n- label_key: The label key or hash.\n\nReturns: The text of the label if available, or an empty string if the label is not found."
+},
+"register_label": {
+"prefix": "string register_label(string text)",
+"body": "register_label(${1:text})",
+"description": "Registers a label, allowing it to be used with natives like HUD._GET_LABEL_TEXT.\n\n- text: The text to register as a label.\n\nReturns: The registered label key or hash."
+},
+"is_key_down": {
+"prefix": "bool is_key_down(int|string vk)",
+"body": "is_key_down(${1:vk})",
+"description": "Checks if the specified virtual key (vk) is currently pressed.\n\n- vk: The virtual key code or character.\n\nReturns: True if the key is currently pressed, false otherwise."
+},
+"call_foreign_function": {
+"prefix": "int call_foreign_function(int addr, int|userdata|string ...)",
+"body": "call_foreign_function(${1:addr}, ${2:...})",
+"description": "Calls a foreign function at the specified address.\n\n- addr: The address of the foreign function.\n- ...: Additional arguments to pass to the function.\n\nReturns: The return value of the function, if applicable."
+},
+"get_rtti_name": {
+"prefix": "string get_rtti_name(int inst_addr)",
+"body": "get_rtti_name(${1:inst_addr})",
+"description": "Retrieves the RTTI name of the instance at the specified address.\n\n- inst_addr: The address of the instance.\n\nReturns: The RTTI name of the instance, or an empty string if the instance is invalid."
+},
+"get_rtti_hierarchy": {
+"prefix": "string get_rtti_hierarchy(int inst_addr)",
+"body": "get_rtti_hierarchy(${1:inst_addr})",
+"description": "Retrieves the RTTI hierarchy of the instance at the specified address.\n\n- inst_addr: The address of the instance.\n\nReturns: The RTTI hierarchy of the instance, or an empty string if the instance is invalid."
+},
+"set_particle_fx_asset": {
+"prefix": "void set_particle_fx_asset(int|string hash)",
+"body": "set_particle_fx_asset(${1:hash})",
+"description": "Sets the particle FX asset using the specified hash.\n\n- hash: The hash or name of the particle FX asset."
+},
+"blip_handle_to_pointer": {
+"prefix": "int blip_handle_to_pointer(int blip_handle)",
+"body": "blip_handle_to_pointer(${1:blip_handle})",
+"description": "Converts a blip handle to a blip pointer.\n\n- blip_handle: The handle of the blip.\n\nReturns: The pointer to the blip if it exists, or 0 if the blip handle is invalid."
+},
+"get_blip_display": {
+"prefix": "int get_blip_display(int blip_handle)",
+"body": "get_blip_display(${1:blip_handle})",
+"description": "Retrieves the display ID of the blip with the specified handle.\n\n- blip_handle: The handle of the blip.\n\nReturns: The display ID of the blip, or 0 if the blip handle is invalid."
+},
+"teleport_2d": {
+"prefix": "int teleport_2d(number x, number y)",
+"body": "teleport_2d(${1:x}, ${2:y})",
+"description": "Teleports the player to the specified 2D coordinates.\n\n- x: The X coordinate.\n- y: The Y coordinate."
+},
+"is_interaction_menu_open": {
+"prefix": "bool is_interaction_menu_open()",
+"body": "is_interaction_menu_open()",
+"description": "Checks if the interaction menu is currently open.\n\nReturns: True if the interaction menu is open, false otherwise."
+},
+"on_transition_finished": {
+"prefix": "int on_transition_finished(function callback)",
+"body": "on_transition_finished(${1:callback})",
+"description": "Registers a callback function to be called when a transition finishes.\n\n- callback: The function to be called when the transition finishes.\n\nReturns: An identifier for the registered callback."
+},
+"get_closest_hud_colour": {
+"prefix": "int get_closest_hud_colour(int target_r, int target_g, int target_b, int target_a = 255)",
+"body": "get_closest_hud_colour(${1:target_r}, ${2:target_g}, ${3:target_b}, ${4:target_a})",
+"description": "Retrieves the closest HUD color index to the specified target color.\n\n- target_r: The red component of the target color.\n- target_g: The green component of the target color.\n- target_b: The blue component of the target color.\n- target_a: The alpha component of the target color (default: 255).\n\nReturns: The HUD color index closest to the target color."
+},
+"is_soup_netintel_inited": {
+"prefix": "bool is_soup_netintel_inited()",
+"body": "is_soup_netintel_inited()",
+"description": "Checks if the Soup NetIntel library is initialized.\n\nReturns: True if the library is initialized, false otherwise."
+},
+"on_pad_shake": {
+"prefix": "int on_pad_shake(function callback)",
+"body": "on_pad_shake(${1:callback})",
+"description": "Registers a callback function to be called when the gamepad is shaken.\n\n- callback: The function to be called when the gamepad is shaken.\n\nReturns: An identifier for the registered callback.\n\non_pad_shake(function(light_duration, light_intensity, heavy_duration, heavy_intensity, delay_after_this_one)\n\n-- Do stuff...\n\nend)"
+},
+"request_model": {
+"prefix": "void request_model(int|string model, int timeout = 2000)",
+"body": "request_model(${1:model}, ${2:timeout})",
+"description": "Attempts to load the given model within the specified timeout period or throws an error.\n\n- model: The hash or name of the model to load.\n- timeout: The maximum time in milliseconds to wait for the model to load (default: 2000)."
+},
+"open_folder": {
+"prefix": "void open_folder(string path)",
+"body": "open_folder(${1:path})",
+"description": "Opens the specified folder in the file explorer.\n\n- path: The path of the folder to open."
+},
+"set_nullptr_preference": {
+"prefix": "bool set_nullptr_preference(bool use_nil = true)",
+"body": "set_nullptr_preference(${1:use_nil})",
+"description": "Sets the preference for Stand to return nullptr values.\n\n- use_nil: True to return nil instead of 0 for nullptr values, false to return 0 (default: true).\n\nReturns: The previous preference value."
+},
+"get_tps": {
+"prefix": "int get_tps()",
+"body": "get_tps()",
+"description": "Returns the current ticks per second (TPS) value.\n\nReturns: The TPS value."
+},
+"get_session_code": {
+"prefix": "bool, ?string get_session_code()",
+"body": "get_session_code()",
+"description": "Returns whether a session code is applicable and, if so, the session code.\n\nReturns: True if a session code is applicable, false otherwise. If applicable, returns the session code or nil if the session code is not available yet."
+},
+"get_session_code_for_user": {
+"prefix": "local function get_session_code_for_user()\n\tlocal applicable, code = get_session_code()\n\tif applicable then\n\t\tif code then\n\t\t\treturn code\n\t\tend\n\t\treturn \"Please wait...\"\n\tend\n\treturn \"N/A\"\nend",
+"body": "local function get_session_code_for_user()\n\tlocal applicable, code = get_session_code()\n\tif applicable then\n\t\tif code then\n\t\t\treturn code\n\t\tend\n\t\treturn \"Please wait...\"\n\tend\n\treturn \"N/A\"\nend",
+"description": "A local Lua function that retrieves the session code for the user."
+},
+"stat_get_type": {
+"prefix": "?int stat_get_type(int|string stat)",
+"body": "stat_get_type(${1:stat})",
+"description": "Retrieves the type of the specified stat.\n\n- stat: The hash or name of the stat.\n\nReturns: The type of the stat as an integer, or nil if the stat is not found."
+},
+"stat_get_int64": {
+"prefix": "?int stat_get_int64(int|string stat)",
+"body": "stat_get_int64(${1:stat})",
+"description": "Retrieves the int64 value of the specified stat.\n\n- stat: The hash or name of the stat.\n\nReturns: The int64 value of the stat, or nil if the stat is not found or not of int64 type."
+},
+"new_toast_config": {
+"prefix": "int new_toast_config(CommandRef list, int bitflags = 0, table<any, string> command_names_prefix = {})",
+"body": "new_toast_config(${1:list}, ${2:bitflags}, ${3:command_names_prefix})",
+"description": "Creates a new toast configuration.\n\n- list: The CommandRef list for the toast configuration.\n- bitflags: Additional bitflags for the toast configuration (default: 0).\n- command_names_prefix: A table mapping command names to their corresponding prefixes (default: {}).\n\nReturns: The handle of the created toast configuration."
+},
+"toast_config_get_flags": {
+"prefix": "int toast_config_get_flags(int tc)",
+"body": "toast_config_get_flags(${1:tc})",
+"description": "Returns the flags of the specified toast configuration.\n\n- tc: The handle of the toast configuration.\n\nReturns: The flags of the toast configuration."
+},
+
+"v3": {
+"prefix": "v3.",
+"body": "v3.$0",
+"description": "V3 Functions"
+},
+"new": {
+"prefix": "userdata new(float x, float y, float z)",
+"body": "new(${1:x}, ${2:y}, ${3:z})",
+"description": "Creates a new v3 instance with the specified coordinates.\n\n- x: The x-coordinate.\n- y: The y-coordinate.\n- z: The z-coordinate."
+},
+"new(Vector3 pos)": {
+"prefix": "userdata new(Vector3 pos)",
+"body": "new(${1:pos})",
+"description": "Creates a new v3 instance using a Vector3.\n\n- pos: The Vector3 instance to create the v3 from."
+},
+"new()": {
+"prefix": "userdata new()",
+"body": "new()",
+"description": "Creates a new v3 instance with default coordinates (0, 0, 0)."
+},
+"get": {
+"prefix": "float, float, float get(userdata|int addr)",
+"body": "get(${1:addr})",
+"description": "Returns the x, y, and z coordinates of the v3 instance.\n\n- addr: The address of the v3 instance.\n\nReturns: The x, y, and z coordinates of the v3 instance."
+},
+"getX": {
+"prefix": "float getX(userdata|int addr)",
+"body": "getX(${1:addr})",
+"description": "Returns the x-coordinate of the v3 instance.\n\n- addr: The address of the v3 instance.\n\nReturns: The x-coordinate of the v3 instance."
+},
+"getY": {
+"prefix": "float getY(userdata|int addr)",
+"body": "getY(${1:addr})",
+"description": "Returns the y-coordinate of the v3 instance.\n\n- addr: The address of the v3 instance.\n\nReturns: The y-coordinate of the v3 instance."
+},
+"getZ": {
+"prefix": "float getZ(userdata|int addr)",
+"body": "getZ(${1:addr})",
+"description": "Returns the Z-coordinate of the specified vector.\n\n- addr: The address of the vector.\n\nReturns: The Z-coordinate of the vector."
+},
+"getHeading": {
+"prefix": "float getHeading(userdata|int addr)",
+"body": "getHeading(${1:addr})",
+"description": "Returns the heading (rotation around the Z-axis) of the specified vector.\n\n- addr: The address of the vector.\n\nReturns: The heading of the vector."
+},
+"set": {
+"prefix": "void set(userdata|int addr, float x, float y, float z)",
+"body": "set(${1:addr}, ${2:x}, ${3:y}, ${4:z})",
+"description": "Sets the components of the specified vector.\n\n- addr: The address of the vector.\n- x: The new X-coordinate.\n- y: The new Y-coordinate.\n- z: The new Z-coordinate."
+},
+"setX": {
+"prefix": "void setX(userdata|int addr, float x)",
+"body": "setX(${1:addr}, ${2:x})",
+"description": "Sets the X-coordinate of the specified vector.\n\n- addr: The address of the vector.\n- x: The new X-coordinate."
+},
+"setY": {
+"prefix": "void setY(userdata|int addr, float y)",
+"body": "setY(${1:addr}, ${2:y})",
+"description": "Sets the Y-coordinate of the specified vector.\n\n- addr: The address of the vector.\n- y: The new Y-coordinate."
+},
+"setZ": {
+"prefix": "void setZ(userdata|int addr, float z)",
+"body": "setZ(${1:addr}, ${2:z})",
+"description": "Sets the Z-coordinate of the specified vector.\n\n- addr: The address of the vector.\n- z: The new Z-coordinate."
+},
+"reset": {
+"prefix": "void reset(userdata|int addr)",
+"body": "reset(${1:addr})",
+"description": "Resets the components of the specified vector to 0.\n\n- addr: The address of the vector."
+},
+"add": {
+"prefix": "void add(userdata|int a, userdata|int b)",
+"body": "add(${1:a}, ${2:b})",
+"description": "Adds vector b to vector a.\n\n- a: The address of the first vector.\n- b: The address of the second vector."
+},
+"sub": {
+"prefix": "void sub(userdata|int a, userdata|int b)",
+"body": "sub(${1:a}, ${2:b})",
+"description": "Subtracts vector b from vector a.\n\n- a: The address of the first vector.\n- b: The address of the second vector."
+},
+"mul": {
+"prefix": "void mul(userdata|int a, number f)",
+"body": "mul(${1:a}, ${2:f})",
+"description": "Multiplies vector a by a scalar value f.\n\n- a: The address of the vector.\n- f: The scalar value to multiply by."
+},
+"div": {
+"prefix": "void div(userdata|int a, number f)",
+"body": "div(${1:a}, ${2:f})",
+"description": "Divides vector a by a scalar value f.\n\n- a: The address of the vector.\n- f: The scalar value to divide by."
+},
+"eq": {
+"prefix": "bool eq(userdata|int a, userdata|int b)",
+"body": "eq(${1:a}, ${2:b})",
+"description": "Checks if two vectors are equal.\n\n- a: The address of the first vector.\n- b: The address of the second vector.\n\nReturns: true if the vectors are equal, false otherwise."
+},
+"magnitude": {
+"prefix": "number magnitude(userdata|int a)",
+"body": "magnitude(${1:a})",
+"description": "Returns the magnitude (length) of the specified vector.\n\n- a: The address of the vector.\n\nReturns: The magnitude of the vector."
+},
+"distance": {
+"prefix": "number distance(userdata|int a, userdata|int b)",
+"body": "distance(${1:a}, ${2:b})",
+"description": "Returns the distance between two vectors.\n\n- a: The address of the first vector.\n- b: The address of the second vector.\n\nReturns: The distance between the vectors."
+},
+"abs": {
+"prefix": "void abs(userdata|int addr)",
+"body": "abs(${1:addr})",
+"description": "Ensures that every axis of the specified vector is positive.\n\n- addr: The address of the vector."
+},
+"sum": {
+"prefix": "void sum(userdata|int addr)",
+"body": "sum(${1:addr})",
+"description": "Sums the components of the specified vector.\n\n- addr: The address of the vector."
+},
+"min": {
+"prefix": "float min(userdata|int addr)",
+"body": "min(${1:addr})",
+"description": "Returns the value of the smallest axis in the specified vector.\n\n- addr: The address of the vector.\n\nReturns: The value of the smallest axis."
+},
+"max": {
+"prefix": "float max(userdata|int addr)",
+"body": "max(${1:addr})",
+"description": "Returns the value of the biggest axis in the specified vector.\n\n- addr: The address of the vector.\n\nReturns: The value of the biggest axis."
+},
+"dot": {
+"prefix": "number dot(userdata|int a, int b)",
+"body": "dot(${1:a}, ${2:b})",
+"description": "Calculates the dot product of two vectors.\n\n- a: The address of the first vector.\n- b: The address of the second vector.\n\nReturns: The dot product of the vectors."
+},
+"normalise": {
+"prefix": "void normalise(userdata|int addr)",
+"body": "normalise(${1:addr})",
+"description": "Normalizes the specified vector, making it a unit vector (magnitude of 1).\n\n- addr: The address of the vector."
+},
+"crossProduct": {
+"prefix": "userdata crossProduct(userdata|int a, int b)",
+"body": "crossProduct(${1:a}, ${2:b})",
+"description": "Calculates the cross product of two vectors.\n\n- a: The address of the first vector.\n- b: The address of the second vector.\n\nReturns: A new vector instance representing the cross product."
+},
+"toRot": {
+"prefix": "userdata toRot(userdata|int addr)",
+"body": "toRot(${1:addr})",
+"description": "Converts the specified vector to a rotation vector.\n\n- addr: The address of the vector.\n\nReturns: A new vector instance with rotation data."
+},
+"lookAt": {
+"prefix": "userdata lookAt(userdata|int a, int b)",
+"body": "lookAt(${1:a}, ${2:b})",
+"description": "Calculates the rotation vector to look from vector a to vector b.\n\n- a: The address of the first vector.\n- b: The address of the second vector.\n\nReturns: A new vector instance with rotation data."
+},
+"toDir": {
+"prefix": "userdata toDir(userdata|int addr)",
+"body": "toDir(${1:addr})",
+"description": "Converts the specified vector to a direction vector (unit vector).\n\n- addr: The address of the vector.\n\nReturns: A new vector instance with direction data."
+},
+"toString": {
+"prefix": "string toString(userdata|int addr)",
+"body": "toString(${1:addr})",
+"description": "Converts the specified vector to a string representation.\n\n- addr: The address of the vector.\n\nReturns: The string representation of the vector."
+},
+
+"lang" : {
+"prefix": "",
+"body": "$1",
+"description": "Lang Functions"
+},
+"get_current": {
+"prefix": "string get_current()",
+"body": "get_current()",
+"description": "Returns the current menu language.\n\nReturns: The current menu language, which could be a 2-letter language code or a specific language identifier."
+},
+"is_code_valid": {
+"prefix": "bool is_code_valid(string lang_code)",
+"body": "is_code_valid(${1:lang_code})",
+"description": "Checks if a language code is valid.\n\n- lang_code: The language code to check.\n\nReturns: true if the language code is valid, false otherwise."
+},
+"get_code_for_soup": {
+"prefix": "string get_code_for_soup(string lang_code)",
+"body": "get_code_for_soup(${1:lang_code})",
+"description": "Converts a language code to a code that can be used for Soup Translator.\n\n- lang_code: The language code to convert.\n\nReturns: The converted language code."
+},
+"is_automatically_translated": {
+"prefix": "bool is_automatically_translated(string lang_code)",
+"body": "is_automatically_translated(${1:lang_code})",
+"description": "Checks if a language code is automatically translated.\n\n- lang_code: The language code to check.\n\nReturns: true if the language is automatically translated, false otherwise."
+},
+"is_english": {
+"prefix": "bool is_english(string lang_code)",
+"body": "is_english(${1:lang_code})",
+"description": "Checks if a language code represents English.\n\n- lang_code: The language code to check.\n\nReturns: true if the language is English, false otherwise."
+},
+"register": {
+"prefix": "int register(string text)",
+"body": "register(${1:text})",
+"description": "Registers a label for translation.\n\n- text: The text of the label to register.\n\nReturns: The ID of the registered label."
+},
+"set_translate": {
+"prefix": "void set_translate(string lang_code)",
+"body": "set_translate(${1:lang_code})",
+"description": "Starts the process of translating labels.\n\n- lang_code: The language code to translate to."
+},
+"translate": {
+"prefix": "void translate(int label, string text)",
+"body": "translate(${1:label}, ${2:text})",
+"description": "Translates a registered label.\n\n- label: The ID of the label to translate.\n- text: The translated text of the label."
+},
+"find": {
+"prefix": "int find(string text, string lang_code = 'en')",
+"body": "find(${1:text}, ${2:lang_code})",
+"description": "Finds an existing label using its text.\n\n- text: The text to search for.\n- lang_code: The language code to search in. (default: 'en')\n\nReturns: The ID of the found label, or 0 if not found."
+},
+"find_builtin": {
+"prefix": "int find_builtin(string text, string lang_code = 'en')",
+"body": "find_builtin(${1:text}, ${2:lang_code})",
+"description": "Finds a built-in label using its text.\n\n- text: The text to search for.\n- lang_code: The language code to search in. (default: 'en')\n\nReturns: The ID of the found label, or 0 if not found."
+},
+"find_registered": {
+"prefix": "int find_registered(string text, string lang_code = 'en')",
+"body": "find_registered(${1:text}, ${2:lang_code})",
+"description": "Finds a registered label using its text.\n\n- text: The text to search for.\n- lang_code: The language code to search in. (default: 'en')\n\nReturns: The ID of the found label, or 0 if not found."
+},
+"get_string": {
+"prefix": "string get_string(Label label, string lang_code = 'en')",
+"body": "get_string(${1:label}, ${2:lang_code})",
+"description": "Gets the string representation of a label in a specific language.\n\n- label: The label to get the string for.\n- lang_code: The language code to get the string in. (default: 'en')\n\nReturns: The string representation of the label."
+},
+"get_localised": {
+"prefix": "string get_localised(Label label)",
+"body": "get_localised(${1:label})",
+"description": "Gets the localized string representation of a label using the current menu language.\n\n- label: The label to get the localized string for.\n\nReturns: The localized string representation of the label."
+},
+"is_mine": {
+"prefix": "bool is_mine(int label)",
+"body": "is_mine(${1:label})",
+"description": "Checks if a label was registered by the calling script.\n\n- label: The ID of the label to check.\n\nReturns: true if the label was registered by the calling script, false otherwise."
+},
+
+"filesystem":{
+"prefix": "filesystem.",
+"body": "filesystem.$0",
+"description": "Filesystem Functions"
+},
+"appdata_dir": {
+"prefix": "string appdata_dir()",
+"body": "appdata_dir()",
+"description": "Returns the AppData directory path.\n\nReturns: The path to the AppData directory."
+},
+"stand_dir": {
+"prefix": "string stand_dir()",
+"body": "stand_dir()",
+"description": "Returns the Stand directory path.\n\nReturns: The path to the Stand directory."
+},
+"scripts_dir": {
+"prefix": "string scripts_dir()",
+"body": "scripts_dir()",
+"description": "Returns the scripts directory path.\n\nReturns: The path to the scripts directory."
+},
+"resources_dir": {
+"prefix": "string resources_dir()",
+"body": "resources_dir()",
+"description": "Returns the resources directory path.\n\nReturns: The path to the resources directory."
+},
+"store_dir": {
+"prefix": "string store_dir()",
+"body": "store_dir()",
+"description": "Returns the store directory path.\n\nReturns: The path to the store directory."
+},
+"exists": {
+"prefix": "bool exists(string path)",
+"body": "exists(${1:path})",
+"description": "Checks if a file or directory exists.\n\n- path: The path to the file or directory.\n\nReturns: true if the file or directory exists, false otherwise."
+},
+"is_regular_file": {
+"prefix": "bool is_regular_file(string path)",
+"body": "is_regular_file(${1:path})",
+"description": "Checks if a path points to a regular file.\n\n- path: The path to the file.\n\nReturns: true if the path points to a regular file, false otherwise."
+},
+"is_dir": {
+"prefix": "bool is_dir(string path)",
+"body": "is_dir(${1:path})",
+"description": "Checks if a path points to a directory.\n\n- path: The path to the directory.\n\nReturns: true if the path points to a directory, false otherwise."
+},
+"mkdir": {
+"prefix": "void mkdir(string path)",
+"body": "mkdir(${1:path})",
+"description": "Creates a directory at the specified path.\n\n- path: The path of the directory to create."
+},
+"mkdirs": {
+"prefix": "void mkdirs(string path)",
+"body": "mkdirs(${1:path})",
+"description": "Creates a directory and any necessary parent directories at the specified path.\n\n- path: The path of the directory to create."
+},
+"list_files": {
+"prefix": "table<int, string> list_files(string path)",
+"body": "list_files(${1:path})",
+"description": "Lists all files in a directory.\n\n- path: The path to the directory.\n\nReturns: An index-based table with all files in the directory."
+},
+
+"async_http":{
+"prefix": "async_http.",
+"body": "async_http.$0",
+"description": "Async HTTP Functions"
+},
+"have_access": {
+"prefix": "bool have_access()",
+"body": "have_access()",
+"description": "Checks if the script has access to make asynchronous HTTP requests.\n\nReturns: true if the script has access, false otherwise."
+},
+"init": {
+"prefix": "void init(string host, string path, ?function success_func = nil, ?function fail_func = nil)",
+"body": "init(${1:host}, ${2:path}, ${3:success_func}, ${4:fail_func})",
+"description": "Initializes an asynchronous HTTP request.\n\n- host: The host to send the request to.\n- path: The path of the request.\n- success_func: (Optional) The function to call on success.\n- fail_func: (Optional) The function to call on failure."
+},
+"dispatch": {
+"prefix": "void dispatch()",
+"body": "dispatch()",
+"description": "Dispatches the asynchronous HTTP request.\n\nThis function finishes building the request and carries it out in a separate OS thread."
+},
+"set_post": {
+"prefix": "void set_post(string content_type, string payload)",
+"body": "set_post(${1:content_type}, ${2:payload})",
+"description": "Sets the request method to POST and adds the Content-Type and Content-Length headers.\n\n- content_type: The content type of the request payload.\n- payload: The payload data to include in the request."
+},
+"add_header": {
+"prefix": "void add_header(string key, string value)",
+"body": "add_header(${1:key}, ${2:value})",
+"description": "Adds a custom header to the HTTP request.\n\n- key: The header key.\n- value: The header value."
+},
+
+"memory":{
+"prefix": "memory.",
+"body": "memory.$0",
+"description": "Memory Functions"
+},
+"script_global": {
+"prefix": "int script_global(int global)",
+"body": "script_global(${1:global})",
+"description": "Returns the address of the given script global.\n\n- global: The index of the script global.\n\nReturns: The address of the script global."
+},
+"script_local": {
+"prefix": "int script_local(string|int script, int local)",
+"body": "script_local(${1:script}, ${2:local})",
+"description": "Returns the address of the given script local.\n\n- script: The name or ID of the script.\n- local: The index of the script local.\n\nReturns: The address of the script local or 0 if the script was not found."
+},
+"alloc": {
+"prefix": "userdata alloc(int size = 24)",
+"body": "alloc(${1:size})",
+"description": "Allocates a block of memory.\n\n- size: (Optional) The size of the memory block to allocate. Default is 24.\n\nReturns: The allocated memory block as a userdata object."
+},
+"alloc_int": {
+"prefix": "userdata alloc_int()",
+"body": "alloc_int()",
+"description": "Allocates a block of memory with size 4 (int).\n\nReturns: The allocated memory block as a userdata object."
+},
+"scan": {
+"prefix": "int scan(string pattern)",
+"body": "scan(${1:pattern})",
+"description": "Scans the game's memory for the given IDA-style pattern.\n\n- pattern: The pattern to scan for.\n\nReturns: The address of the matched pattern if found, or 0 if not found."
+},
+"rip": {
+"prefix": "int rip(int addr)",
+"body": "rip(${1:addr})",
+"description": "Follows an offset from the instruction pointer (RIP) at the given address.\n\n- addr: The base address to calculate the RIP offset from.\n\nReturns: The calculated address."
+},
+"addrof": {
+"prefix": "lightuserdata addrof(userdata ud)",
+"body": "addrof(${1:ud})",
+"description": "Returns the address of the userdata object.\n\n- ud: The userdata object.\n\nReturns: The address of the userdata object as a lightuserdata."
+},
+"read_byte": {
+"prefix": "int read_byte(int|userdata addr)",
+"body": "read_byte(${1:addr})",
+"description": "Reads an 8-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_ubyte": {
+"prefix": "int read_ubyte(int|userdata addr)",
+"body": "read_ubyte(${1:addr})",
+"description": "Reads an unsigned 8-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_short": {
+"prefix": "int read_short(int|userdata addr)",
+"body": "read_short(${1:addr})",
+"description": "Reads a 16-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_ushort": {
+"prefix": "int read_ushort(int|userdata addr)",
+"body": "read_ushort(${1:addr})",
+"description": "Reads an unsigned 16-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_int": {
+"prefix": "int read_int(int|userdata addr)",
+"body": "read_int(${1:addr})",
+"description": "Reads a 32-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_uint": {
+"prefix": "int read_uint(int|userdata addr)",
+"body": "read_uint(${1:addr})",
+"description": "Reads an unsigned 32-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_long": {
+"prefix": "int read_long(int|userdata addr)",
+"body": "read_long(${1:addr})",
+"description": "Reads a 64-bit integer at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as an integer."
+},
+"read_float": {
+"prefix": "number read_float(int|userdata addr)",
+"body": "read_float(${1:addr})",
+"description": "Reads a floating-point number at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as a number."
+},
+"read_string": {
+"prefix": "string read_string(int|userdata addr)",
+"body": "read_string(${1:addr})",
+"description": "Reads a string at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as a string."
+},
+"read_vector3": {
+"prefix": "Vector3 read_vector3(int|userdata addr)",
+"body": "read_vector3(${1:addr})",
+"description": "Reads a Vector3 at the given address.\n\n- addr: The address to read from.\n\nReturns: The value read as a Vector3 object."
+},
+"read_binary_string": {
+"prefix": "string read_binary_string(int|userdata addr, int size)",
+"body": "read_binary_string(${1:addr}, ${2:size})",
+"description": "Reads a binary string of the specified size at the given address.\n\n- addr: The address to read from.\n- size: The size of the binary string to read.\n\nReturns: The binary string read as a string."
+},
+"write_ubyte": {
+"prefix": "void write_ubyte(int|userdata addr, int value)",
+"body": "write_ubyte(${1:addr}, ${2:value})",
+"description": "Writes an unsigned 8-bit integer to the given address.\n\n- addr: The address to write to.\n- value: The value to write as an integer."
+},
+"write_ushort": {
+"prefix": "void write_ushort(int|userdata addr, int value)",
+"body": "write_ushort(${1:addr}, ${2:value})",
+"description": "Writes an unsigned 16-bit integer to the given address.\n\n- addr: The address to write to.\n- value: The value to write as an integer."
+},
+"write_int": {
+"prefix": "void write_int(int|userdata addr, int value)",
+"body": "write_int(${1:addr}, ${2:value})",
+"description": "Writes a 32-bit integer to the given address.\n\n- addr: The address to write to.\n- value: The value to write as an integer."
+},
+"write_uint": {
+"prefix": "void write_uint(int|userdata addr, int value)",
+"body": "write_uint(${1:addr}, ${2:value})",
+"description": "Writes an unsigned 32-bit integer to the given address.\n\n- addr: The address to write to.\n- value: The value to write as an integer."
+},
+"write_long": {
+"prefix": "void write_long(int|userdata addr, int value)",
+"body": "write_long(${1:addr}, ${2:value})",
+"description": "Writes a 64-bit integer to the given address.\n\n- addr: The address to write to.\n- value: The value to write as an integer."
+},
+"write_float": {
+"prefix": "void write_float(int|userdata addr, number value)",
+"body": "write_float(${1:addr}, ${2:value})",
+"description": "Writes a floating-point number to the given address.\n\n- addr: The address to write to.\n- value: The value to write as a number."
+},
+"write_string": {
+"prefix": "void write_string(int|userdata addr, string value)",
+"body": "write_string(${1:addr}, ${2:value})",
+"description": "Writes a string to the given address.\n\n- addr: The address to write to.\n- value: The value to write as a string."
+},
+"write_vector3": {
+"prefix": "void write_vector3(int|userdata addr, Vector3 value)",
+"body": "write_vector3(${1:addr}, ${2:value})",
+"description": "Writes a Vector3 to the given address.\n\n- addr: The address to write to.\n- value: The value to write as a Vector3 object."
+},
+"write_binary_string": {
+"prefix": "void write_binary_string(int|userdata addr, string value)",
+"body": "write_binary_string(${1:addr}, ${2:value})",
+"description": "Writes a binary string to the given address.\n\n- addr: The address to write to.\n- value: The binary string to write as a string."
+},
+"get_name_of_this_module": {
+"prefix": "string get_name_of_this_module()",
+"body": "get_name_of_this_module()",
+"description": "Gets the name of the current module (the script itself).\n\nReturns: The name of the current module as a string."
+},
+
+"profiling":{
+"prefix": "profiling.",
+"body": "profiling.$0",
+"description": "Profiling Functions"
+},
+"profiling.once": {
+"prefix": "void profiling.once(string name, function func)",
+"body": "profiling.once(${1:name}, ${2:func})",
+"description": "Executes the given function and prints the time it took to your log.\n\n- name: The name of the profiling operation.\n- func: The function to execute and profile."
+},
+"profiling.tick": {
+"prefix": "void profiling.tick(string name, function func)",
+"body": "profiling.tick(${1:name}, ${2:func})",
+"description": "Executes the given function and shows the time it took via the info text/debug text.\n\n- name: The name of the profiling operation.\n- func: The function to execute and profile."
+}
+
+}
