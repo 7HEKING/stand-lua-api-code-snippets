@@ -1,4 +1,4 @@
-# This Visual Studio Extension package provides code snippets for the [Stand Lua API](https://stand.gg/help/lua-api-documentation).
+# This Visual Studio Code Extension package provides code snippets for the [Stand Lua API](https://stand.gg/help/lua-api-documentation).
 
 ### How to install?
 
